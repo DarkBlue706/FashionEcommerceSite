@@ -28,3 +28,4 @@ C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\refint\ShirtComp
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.pdb
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.genruntimeconfig.cache
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ref\ShirtCompany.dll
+C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.sourcelink.json

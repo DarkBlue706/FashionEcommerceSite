@@ -1,6 +1,7 @@
 using System.Reflection.Metadata.Ecma335;
 using Microsoft.AspNetCore.Mvc;
 using ShirtCompany.Models;
+using ShirtCompany.Models.Repositories;
 
 namespace ShirtCompany.Controllers
 {
@@ -12,13 +13,6 @@ namespace ShirtCompany.Controllers
 
             //Need to validate products(checking for required fields, enforcing price ranges, etc)
 
-            private List<Shirt> shirts = new List<Shirt>()
-            {
-                new Shirt { ShirtID = 1, Brand = "MyBrand", Color = "Blue", Gender = "women", Price = 30, Size = 10},
-                new Shirt { ShirtID = 2, Brand = "MyBrand", Color = "Black", Gender = "Men", Price = 30, Size = 10},
-                new Shirt { ShirtID = 3, Brand = "YourBrand", Color = "Pink", Gender = "men", Price = 30, Size = 10},
-                new Shirt { ShirtID = 4, Brand = "YourBrand", Color = "Yellow", Gender = "Women", Price = 30, Size = 10},
-            };
 
             [HttpGet]
             public string GetShirts() //Pull all products by creation date
@@ -27,9 +21,15 @@ namespace ShirtCompany.Controllers
             }
 
             [HttpGet("{id}")] //search for product by name or catergory
-             public Shirt GetShirtById(int id)
+             public IActionResult GetShirtById(int id) //returns multiple results
             {
-                return shirts.First(X=> X.ShirtID == id);
+                if (id <= 0) // 0 or less
+                    return BadRequest();
+
+                var shirt = ShirtRepository.GetShirtById(id);
+                if(shirt == null)
+                    return NotFound();
+                return Ok(shirt);
             }
 
             [HttpPost]
