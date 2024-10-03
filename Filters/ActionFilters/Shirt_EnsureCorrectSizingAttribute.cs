@@ -1,7 +1,8 @@
 using System.ComponentModel.DataAnnotations;
+using ShirtCompany.Models;
 
 
-namespace ShirtCompany.Models.Validations
+namespace ShirtCompany.Filters.ActionFilters
 {
     public class Shirt_EnsureCorrectSizingAttribute : ValidationAttribute
     {

@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-using ShirtCompany.Models.Validations;
+using ShirtCompany.Filters.ActionFilters;
 
 namespace ShirtCompany.Models;
 
@@ -15,7 +15,7 @@ public class Shirt {
         public string? Color{get; set;}
         
         [Shirt_EnsureCorrectSizing]
-        public int Size {get; set;}
+        public int? Size {get; set;}
 
         [Required]
         public decimal? Price {get; set;}
