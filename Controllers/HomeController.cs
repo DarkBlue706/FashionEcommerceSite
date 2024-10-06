@@ -13,12 +13,12 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Index() //home/index abstract of all return types
     {
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Privacy() //home/privacy
     {
         return View();
     }
@@ -28,4 +28,5 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
 }

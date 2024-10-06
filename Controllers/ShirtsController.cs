@@ -4,6 +4,7 @@ using ShirtCompany.Models.Repositories;
 using ShirtCompany.Filters.ActionFilters;
 using ShirtCompany.Filters.ExceptionFilters;
 
+
 namespace ShirtCompany.Controllers
 {
     [ApiController]
@@ -56,7 +57,6 @@ namespace ShirtCompany.Controllers
             {
                 return $"Deleting shirt: {id}";
             }
-
 
     
     }

@@ -1,10 +1,10 @@
+C:\Users\cthom\dotnet-course-code\ShirtCompany\bin\Debug\net8.0\ShirtCompany.exe
+C:\Users\cthom\dotnet-course-code\ShirtCompany\bin\Debug\net8.0\ShirtCompany.dll
 C:\Users\cthom\dotnet-course-code\ShirtCompany\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\cthom\dotnet-course-code\ShirtCompany\bin\Debug\net8.0\appsettings.json
 C:\Users\cthom\dotnet-course-code\ShirtCompany\bin\Debug\net8.0\ShirtCompany.staticwebassets.runtime.json
-C:\Users\cthom\dotnet-course-code\ShirtCompany\bin\Debug\net8.0\ShirtCompany.exe
 C:\Users\cthom\dotnet-course-code\ShirtCompany\bin\Debug\net8.0\ShirtCompany.deps.json
 C:\Users\cthom\dotnet-course-code\ShirtCompany\bin\Debug\net8.0\ShirtCompany.runtimeconfig.json
-C:\Users\cthom\dotnet-course-code\ShirtCompany\bin\Debug\net8.0\ShirtCompany.dll
 C:\Users\cthom\dotnet-course-code\ShirtCompany\bin\Debug\net8.0\ShirtCompany.pdb
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.AssemblyInfoInputs.cache
@@ -13,6 +13,7 @@ C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.csp
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.RazorAssemblyInfo.cache
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.RazorAssemblyInfo.cs
+C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.sourcelink.json
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\staticwebassets\msbuild.ShirtCompany.Microsoft.AspNetCore.StaticWebAssets.props
@@ -20,7 +21,6 @@ C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\staticwebassets\
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ShirtCompany.props
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ShirtCompany.props
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\scopedcss\bundle\ShirtCompany.styles.css
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\scopedcss\projectbundle\ShirtCompany.bundle.scp.css
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.dll
@@ -28,4 +28,5 @@ C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\refint\ShirtComp
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.pdb
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.genruntimeconfig.cache
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ref\ShirtCompany.dll
-C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.sourcelink.json
+C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\scopedcss\Views\Home\Privacy.cshtml.rz.scp.css

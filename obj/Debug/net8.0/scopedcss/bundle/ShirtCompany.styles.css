@@ -1,3 +1,62 @@
+/* _content/ShirtCompany/Views/Home/Privacy.cshtml.rz.scp.css */
+body[b-4kd5wsfgn2] {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container[b-4kd5wsfgn2] {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1[b-4kd5wsfgn2] {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+}
+
+h2[b-4kd5wsfgn2] {
+    color: #007bff;
+    margin-top: 40px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+p[b-4kd5wsfgn2], li[b-4kd5wsfgn2] {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+ul[b-4kd5wsfgn2] {
+    margin-left: 20px;
+}
+
+a[b-4kd5wsfgn2] {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover[b-4kd5wsfgn2] {
+    text-decoration: underline;
+}
+
+footer[b-4kd5wsfgn2] {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #aaa;
+}
 /* _content/ShirtCompany/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
