@@ -30,3 +30,6 @@ C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ShirtCompany.gen
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\ref\ShirtCompany.dll
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\scopedcss\Views\Home\Privacy.cshtml.rz.scp.css
+C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\scopedcss\Views\Catergories\Hats.cshtml.rz.scp.css
+C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\scopedcss\Views\Catergories\Pants.cshtml.rz.scp.css
+C:\Users\cthom\dotnet-course-code\ShirtCompany\obj\Debug\net8.0\scopedcss\Views\Catergories\Shirts.cshtml.rz.scp.css

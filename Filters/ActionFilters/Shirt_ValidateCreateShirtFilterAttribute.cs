@@ -27,7 +27,7 @@ namespace ShirtCompany.Filters.ActionFilters
                     context.Result = new BadRequestObjectResult(problemDetails);
                 }
                 
-                var existingShirt = ShirtRepository.GetShirtByProperties(shirt.Brand, shirt.Gender, shirt.Color, shirt.Size);
+                var existingShirt = ShirtRepository.GetShirtByProperties(shirt?.Brand, shirt?.Gender, shirt?.Color, shirt?.Size);
                 if (existingShirt != null)
                 {
                     context.ModelState.AddModelError("Shirt", "Shirt already exists.");

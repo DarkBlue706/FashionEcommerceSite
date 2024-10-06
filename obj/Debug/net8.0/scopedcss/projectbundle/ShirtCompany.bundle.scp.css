@@ -1,3 +1,126 @@
+/* _content/ShirtCompany/Views/Catergories/Hats.cshtml.rz.scp.css */
+/* Style to center the warning-content */
+.center-container[b-7evolds6oz] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh; /* Adjust to your needs */
+    background-color: #EEEEF4; /* Background color for the top portion */
+}
+
+/* Style for warning-content */
+.warning-content[b-7evolds6oz] {
+    text-align: center;
+    max-width: 800px;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+}
+
+.warning-content h1[b-7evolds6oz] {
+    font-weight: 100;
+    font-size: 27pt;
+    color: #E43;
+}
+
+.warning-content p[b-7evolds6oz] {
+    font-weight: 300;
+}
+
+/* Typewriter styles */
+.typewriter[b-7evolds6oz] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Adjust as needed */
+    background-color: #333;
+}
+
+.typewriter h1[b-7evolds6oz] {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensure content is hidden until animation reveals it */
+    border-right: .15em solid orange; /* Cursor effect */
+    white-space: nowrap; /* Prevent text wrapping */
+    letter-spacing: .15em;
+    animation: 
+        typing-b-7evolds6oz 3.5s steps(18, end),
+        blink-caret-b-7evolds6oz .5s step-end infinite;
+}
+
+/* Typing effect */
+@keyframes typing-b-7evolds6oz {
+    from { width: 0; }
+    to { width: 12ch; } /* Length of the text "We'll be right back! :)" */
+}
+
+/* Blinking cursor effect */
+@keyframes blink-caret-b-7evolds6oz {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+}
+/* _content/ShirtCompany/Views/Catergories/Pants.cshtml.rz.scp.css */
+/* Style to center the warning-content */
+.center-container[b-6oto2faysw] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh; /* Adjust to your needs */
+    background-color: #EEEEF4; /* Background color for the top portion */
+}
+
+/* Style for warning-content */
+.warning-content[b-6oto2faysw] {
+    text-align: center;
+    max-width: 800px;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+}
+
+.warning-content h1[b-6oto2faysw] {
+    font-weight: 100;
+    font-size: 27pt;
+    color: #E43;
+}
+
+.warning-content p[b-6oto2faysw] {
+    font-weight: 300;
+}
+
+/* Typewriter styles */
+.typewriter[b-6oto2faysw] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Adjust as needed */
+    background-color: #333;
+}
+
+.typewriter h1[b-6oto2faysw] {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensure content is hidden until animation reveals it */
+    border-right: .15em solid orange; /* Cursor effect */
+    white-space: nowrap; /* Prevent text wrapping */
+    letter-spacing: .15em;
+    animation: 
+        typing-b-6oto2faysw 3.5s steps(18, end),
+        blink-caret-b-6oto2faysw .5s step-end infinite;
+}
+
+/* Typing effect */
+@keyframes typing-b-6oto2faysw {
+    from { width: 0; }
+    to { width: 12ch; } /* Length of the text "Coming Soon! :)" */
+}
+
+/* Blinking cursor effect */
+@keyframes blink-caret-b-6oto2faysw {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+}
+/* _content/ShirtCompany/Views/Catergories/Shirts.cshtml.rz.scp.css */
 /* _content/ShirtCompany/Views/Home/Privacy.cshtml.rz.scp.css */
 body[b-4kd5wsfgn2] {
     font-family: 'Arial', sans-serif;

@@ -46,6 +46,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Catergories/Hats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZXJnb3JpZXNcSGF0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-7evolds6oz
+
+[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Catergories/Pants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZXJnb3JpZXNcUGFudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6oto2faysw
+
+[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Catergories/Shirts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZXJnb3JpZXNcU2hpcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-flssg4pe7k
+
 [C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-4kd5wsfgn2
