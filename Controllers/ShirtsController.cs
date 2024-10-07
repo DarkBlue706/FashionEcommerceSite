@@ -36,7 +36,7 @@ namespace ShirtCompany.Controllers
             {
                 ShirtRepository.AddShirt(shirt);
                 return CreatedAtAction(nameof(GetShirtById),
-                    new { id = shirt.ShirtID},
+                    new { id = shirt.ProductID},
                     shirt);
             }
             
@@ -46,16 +46,21 @@ namespace ShirtCompany.Controllers
             [Shirt_HandleUpdateExceptionsFilter]
              public IActionResult UpdateShirt(int id, Shirt shirt)
             {   
-            
+                shirt.Update();
                 ShirtRepository.UpdateShirt(shirt);
                 
                 return NoContent();
             }
 
             [HttpDelete("{id}")] //Delete by ID
+            [Shirt_ValidatateShirtIdFilture]
              public string DeleteShirt(int id)
             {
+                var shirt = ShirtRepository.GetShirtById(id);
+                ShirtRepository.DeleteShirt(id);
+
                 return $"Deleting shirt: {id}";
+                //return Ok(shirt);
             }
 
     

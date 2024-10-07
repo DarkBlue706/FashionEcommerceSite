@@ -7,10 +7,10 @@ namespace ShirtCompany.Models.Repositories
     {
             private static List<Shirt> shirts = new List<Shirt>()
             {
-                new Shirt { ShirtID = 1, Brand = "MyBrand", Color = "Blue", Gender = "women", Price = 30, Size = 6},
-                new Shirt { ShirtID = 2, Brand = "MyBrand", Color = "Black", Gender = "Men", Price = 30, Size = 5},
-                new Shirt { ShirtID = 3, Brand = "YourBrand", Color = "Pink", Gender = "men", Price = 30, Size = 2},
-                new Shirt { ShirtID = 4, Brand = "YourBrand", Color = "Yellow", Gender = "Women", Price = 30, Size = 12},
+                new Shirt { ProductID = 1, Brand = "MyBrand", Color = "Blue", Gender = "women", Price = 30, Size = 6},
+                new Shirt { ProductID = 2, Brand = "MyBrand", Color = "Black", Gender = "Men", Price = 30, Size = 5},
+                new Shirt { ProductID = 3, Brand = "YourBrand", Color = "Pink", Gender = "men", Price = 30, Size = 2},
+                new Shirt { ProductID = 4, Brand = "YourBrand", Color = "Yellow", Gender = "Women", Price = 30, Size = 12},
             };
 
             public static List<Shirt> GetShirts()
@@ -20,11 +20,11 @@ namespace ShirtCompany.Models.Repositories
 
             public static bool ShirtExists(int id)
             {
-                return shirts.Any(x=> x.ShirtID == id);
+                return shirts.Any(x=> x.ProductID == id);
             }
             public static Shirt? GetShirtById(int id)
             {
-                return shirts.FirstOrDefault(X=> X.ShirtID == id);
+                return shirts.FirstOrDefault(X=> X.ProductID == id);
             }
 
             public static Shirt? GetShirtByProperties(string? brand, string? gender, string? color, int? size)
@@ -49,20 +49,29 @@ namespace ShirtCompany.Models.Repositories
 
             public static void AddShirt(Shirt shirt)
             {
-                int maxId = shirts.Max(x => x.ShirtID);
-                shirt.ShirtID = maxId + 1;
+                int maxId = shirts.Max(x => x.ProductID);
+                shirt.ProductID = maxId + 1;
 
                 shirts.Add(shirt);
             }
 
             public static void UpdateShirt(Shirt shirt)
             {
-                var shirtToUpdate = shirts.First(x => x.ShirtID == shirt.ShirtID);
+                var shirtToUpdate = shirts.First(x => x.ProductID == shirt.ProductID);
                 shirtToUpdate.Brand = shirt.Brand;
                 shirtToUpdate.Price = shirt.Price;
                 shirtToUpdate.Size = shirt.Size;
                 shirtToUpdate.Color = shirt.Color;
                 shirtToUpdate.Gender = shirt.Gender;
+            }
+
+            public static void DeleteShirt(int shirtId)
+            {
+                var shirt = GetShirtById(shirtId);
+                if (shirt != null)
+                {
+                    shirts.Remove(shirt);
+                }
             }
 
     };

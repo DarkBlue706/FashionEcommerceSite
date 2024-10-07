@@ -1,14 +1,16 @@
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
+using ShirtCompany.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Configure the SQLite connection
+builder.Services.AddDbContext<ShirtCompanyDBContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("ShirtCompanyDatabase")));
+
 var app = builder.Build();
-
-//add services to con
-
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -37,31 +39,3 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
-
-
-// these are the middleware components
-// app.MapGet("/products", () => 
-// {
-//     return "Reading products";
-// });
-
-// app.MapGet("/products/{id}", (int id) =>
-// {
-
-//     return "Reading product with ID: {id}";
-// });
-
-// app.MapPost("/products", () => 
-// {
-//     return $"Creating your products";
-// });
-
-// app.MapPut("/products/{id}", (int id) =>
-// {
-//     return $"Updating product with ID: {id}";
-// });
-
-// app.MapDelete("/products/{id}", (int id) =>
-// {
-//     return $"Deleting product with ID: {id}";
-// });

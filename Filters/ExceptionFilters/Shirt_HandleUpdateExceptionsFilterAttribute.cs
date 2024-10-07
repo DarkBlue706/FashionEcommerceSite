@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc;
+using ShirtCompany.Models.Repositories;
 
 
 namespace ShirtCompany.Filters.ExceptionFilters
@@ -14,12 +15,16 @@ namespace ShirtCompany.Filters.ExceptionFilters
 
             if (int.TryParse(strShirtId, out int shirtId))
             {
-                context.ModelState.AddModelError("ShirtId", "Shirt does not exist anymore.");
-                var problemDetails = new ValidationProblemDetails(context.ModelState)
+                if(!ShirtRepository.ShirtExists(shirtId))
                 {
-                    Status = StatusCodes.Status404NotFound
-                };
-                context.Result = new NotFoundObjectResult(problemDetails);
+                    context.ModelState.AddModelError("ShirtId", "Shirt does not exist anymore.");
+                    var problemDetails = new ValidationProblemDetails(context.ModelState)
+                    {
+                        Status = StatusCodes.Status404NotFound
+                    };
+                    context.Result = new NotFoundObjectResult(problemDetails);
+                }
+                
             }
 
         }

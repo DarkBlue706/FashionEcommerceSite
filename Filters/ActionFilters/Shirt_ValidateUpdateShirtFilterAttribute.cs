@@ -14,7 +14,7 @@ namespace ShirtCompany.Filters.ActionFilters
             var id = context.ActionArguments["id"] as int?;
             var shirt = context.ActionArguments["shirt"] as Shirt;
 
-            if (id.HasValue && shirt != null && id != shirt.ShirtID)
+            if (id.HasValue && shirt != null && id != shirt.ProductID)
             {
                 context.ModelState.AddModelError("ShirtId", "ShirtID is not the same as id");
                 var problemDetails = new ValidationProblemDetails(context.ModelState)
