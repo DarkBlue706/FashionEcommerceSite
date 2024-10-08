@@ -3,19 +3,19 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ShirtCompany.Migrations
+namespace ShirtCompany.Migrations.ShirtDB
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class AddShirtsTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Shirts",
+                name: "Shirt",
                 columns: table => new
                 {
-                    ShirtID = table.Column<int>(type: "INTEGER", nullable: false)
+                    ProductID = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(type: "TEXT", nullable: false),
                     Brand = table.Column<string>(type: "TEXT", nullable: true),
@@ -30,7 +30,7 @@ namespace ShirtCompany.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Shirts", x => x.ShirtID);
+                    table.PrimaryKey("PK_Shirt", x => x.ProductID);
                 });
         }
 
@@ -38,7 +38,7 @@ namespace ShirtCompany.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Shirts");
+                name: "Shirt");
         }
     }
 }

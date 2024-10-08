@@ -8,11 +8,11 @@ using ShirtCompany.Models;
 
 #nullable disable
 
-namespace ShirtCompany.Migrations
+namespace ShirtCompany.Migrations.ShirtDB
 {
-    [DbContext(typeof(ShirtCompanyDBContext))]
-    [Migration("20241007011940_InitialCreate")]
-    partial class InitialCreate
+    [DbContext(typeof(ShirtDBContext))]
+    [Migration("20241007215856_AddShirtsTable")]
+    partial class AddShirtsTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -22,7 +22,7 @@ namespace ShirtCompany.Migrations
 
             modelBuilder.Entity("ShirtCompany.Models.Shirt", b =>
                 {
-                    b.Property<int>("ShirtID")
+                    b.Property<int>("ProductID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -59,9 +59,9 @@ namespace ShirtCompany.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("ShirtID");
+                    b.HasKey("ProductID");
 
-                    b.ToTable("Shirts");
+                    b.ToTable("Shirt");
                 });
 #pragma warning restore 612, 618
         }

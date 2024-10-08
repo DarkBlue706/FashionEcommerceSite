@@ -2,7 +2,36 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">Welcome to the index home</a>.</p>
-</div>
+<section id="home-banner">
+    <h2>Welcome to Our Store!</h2>
+    <p>Your one-stop shop for the latest in fashion: jeans, shirts, and hats!</p>
+</section>
+
+<section id="featured-products">
+    <h3>Featured Products</h3>
+    <div class="products-grid">
+        <div class="product">
+            <img src="~/Images/jeans.jpg" alt="Jeans" />
+            <h4>Jeans</h4>
+            <p>Comfortable and stylish denim.</p>
+            <a href="/Shop/Jeans" class="btn">Shop Jeans</a>
+        </div>
+        <div class="product">
+            <img src="~/Images/shirt.jpg" alt="Shirts" />
+            <h4>Shirts</h4>
+            <p>Casual and formal shirts for every occasion.</p>
+            <a href="/Shop/Shirts" class="btn">Shop Shirts</a>
+        </div>
+        <div class="product">
+            <img src="~/Images/hat.jpg" alt="Hats" />
+            <h4>Hats</h4>
+            <p>Complete your look with our collection of hats.</p>
+            <a href="/Shop/Hats" class="btn">Shop Hats</a>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h3>About Us</h3>
+    <p>At our store, we offer high-quality fashion at affordable prices. Explore our latest collections and find the perfect outfit!</p>
+</section>

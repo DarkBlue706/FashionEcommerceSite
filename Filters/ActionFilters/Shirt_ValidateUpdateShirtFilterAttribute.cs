@@ -16,7 +16,7 @@ namespace ShirtCompany.Filters.ActionFilters
 
             if (id.HasValue && shirt != null && id != shirt.ProductID)
             {
-                context.ModelState.AddModelError("ShirtId", "ShirtID is not the same as id");
+                context.ModelState.AddModelError("ProductId", "ProductID is not the same as id");
                 var problemDetails = new ValidationProblemDetails(context.ModelState)
                 {
                     Status = StatusCodes.Status400BadRequest

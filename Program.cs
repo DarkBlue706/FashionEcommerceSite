@@ -7,8 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Configure the SQLite connection
-builder.Services.AddDbContext<ShirtCompanyDBContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("ShirtCompanyDatabase")));
+ builder.Services.AddDbContext<UserDBContext>(options =>
+     options.UseSqlite(builder.Configuration.GetConnectionString("ShirtCompanyDatabase")));
+
+ builder.Services.AddDbContext<ShirtDBContext>(options =>
+     options.UseSqlite(builder.Configuration.GetConnectionString("ShirtCompanyDatabase")));
 
 var app = builder.Build();
 

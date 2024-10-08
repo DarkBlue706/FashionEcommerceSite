@@ -5,34 +5,44 @@ using ShirtCompany.Models.Repositories;
 namespace ShirtCompany.Filters.ActionFilters
 {
 
-    public class Shirt_ValidatateShirtIdFiltureAttribute : ActionFilterAttribute
+    public class Shirt_ValidatateProductIdFiltureAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext context)
         {
             base.OnActionExecuting(context);
 
-            var shirtId = context.ActionArguments["id"] as int?;
-            if (shirtId.HasValue)
+            var productId = context.ActionArguments["id"] as int?;
+            if (productId.HasValue)
             {
-                if (shirtId.Value <= 0)
+                if (productId.Value <= 0)
                 {
                
-                    context.ModelState.AddModelError("ShirtId", "ShirtId is invalid.");
+                    context.ModelState.AddModelError("ProductId", "ProductId is invalid.");
                     var problemDetails = new ValidationProblemDetails(context.ModelState)
                     {
                         Status = StatusCodes.Status400BadRequest
                     };
                     context.Result = new BadRequestObjectResult(problemDetails);
                 }
-                else if (!ShirtRepository.ShirtExists(shirtId.Value))
+                else if (!ShirtRepository.ShirtExists(productId.Value))
                 {
-                    context.ModelState.AddModelError("ShirtId", "Shirt does not exist.");
+                    context.ModelState.AddModelError("ProductId", "Product does not exist.");
                     var problemDetails = new ValidationProblemDetails(context.ModelState)
                     {
                         Status =  StatusCodes.Status404NotFound
                     };
                     context.Result = new NotFoundObjectResult(problemDetails);
 
+                }
+                else
+                {
+                // No ProductId provided
+                context.ModelState.AddModelError("ProductId", "ProductId is required.");
+                var problemDetails = new ValidationProblemDetails(context.ModelState)
+                    {
+                        Status = StatusCodes.Status400BadRequest
+                    };
+                context.Result = new BadRequestObjectResult(problemDetails);
                 }
             }
         }

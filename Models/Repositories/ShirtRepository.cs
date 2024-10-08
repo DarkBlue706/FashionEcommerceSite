@@ -1,4 +1,6 @@
 using ShirtCompany.Models;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace ShirtCompany.Models.Repositories

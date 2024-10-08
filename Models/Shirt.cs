@@ -4,7 +4,7 @@ using ShirtCompany.Filters.ActionFilters;
 namespace ShirtCompany.Models;
 
 public class Shirt {
-
+      [Key]
       public int ProductID {get; set;}
         
       [Required]
