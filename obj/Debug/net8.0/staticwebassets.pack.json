@@ -105,10 +105,6 @@
       "PackagePath": "staticwebassets\\images\\samples\\GothStyleDesignLogo.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\PantsDesignLogo.jpeg",
-      "PackagePath": "staticwebassets\\images\\samples\\PantsDesignLogo.jpeg"
-    },
-    {
       "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\ShoesDesignLogo.jpeg",
       "PackagePath": "staticwebassets\\images\\samples\\ShoesDesignLogo.jpeg"
     },
@@ -119,6 +115,14 @@
     {
       "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\hatsDesignLogo.webp",
       "PackagePath": "staticwebassets\\images\\samples\\hatsDesignLogo.webp"
+    },
+    {
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo.jpeg",
+      "PackagePath": "staticwebassets\\images\\samples\\pantsDesignLogo.jpeg"
+    },
+    {
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo2.webp",
+      "PackagePath": "staticwebassets\\images\\samples\\pantsDesignLogo2.webp"
     },
     {
       "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\90s_shirt.webp",

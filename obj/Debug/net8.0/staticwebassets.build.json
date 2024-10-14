@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uwX2MmrSrUVypk3dh4vGBq9SaEBic5L3ugGpMDPZRZI=",
+  "Hash": "9a2d0PVgSuzFixAJW5cRnvTKKzn7gr1qrSvleAsibmI=",
   "Source": "ShirtCompany",
   "BasePath": "_content/ShirtCompany",
   "Mode": "Default",
@@ -549,12 +549,12 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\hatsDesignLogo.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\PantsDesignLogo.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/samples/PantsDesignLogo.jpeg",
+      "RelativePath": "images/samples/pantsDesignLogo.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -565,7 +565,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\samples\\PantsDesignLogo.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\samples\\pantsDesignLogo.jpeg"
+    },
+    {
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo2.webp",
+      "SourceId": "ShirtCompany",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
+      "BasePath": "_content/ShirtCompany",
+      "RelativePath": "images/samples/pantsDesignLogo2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\samples\\pantsDesignLogo2.webp"
     },
     {
       "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\ShoesDesignLogo.jpeg",

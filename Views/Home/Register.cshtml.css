@@ -1,0 +1,48 @@
+/* Dark gray background for the entire form container */
+.form-container {
+    max-width: 500px; /* Set the maximum width for the form */
+    margin: 0 auto;   /* Center the form horizontally */
+    padding: 20px;
+    background-color: #333333; /* Dark gray background */
+    border: 1px solid #555555; /* Slightly lighter gray for the border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+}
+
+/* Form control input width */
+input.form-control {
+    width: 300px !important; /* Force the input field to be 300px wide */
+    max-width: 100%; /* Allow it to shrink on small screens */
+    margin-bottom: 10px;
+    background-color: #555555; /* Darker input field background */
+    border: 1px solid #777777; /* Light gray border for inputs */
+    color: white; /* White text for contrast */
+}
+
+/* Full width button */
+button.btn-primary {
+    width: 100%; /* Button should take full width of the container */
+    padding: 10px;
+    background-color: #007bff; /* Primary button color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3; /* Slightly darker on hover */
+}
+
+/* Label and text color adjustment for dark theme */
+label {
+    color: white; /* White text for labels */
+}
+
+.form-text.text-muted {
+    color: #aaaaaa; /* Light gray for muted text */
+}
+
+.text-danger {
+    color: #ff6b6b; /* Light red for error messages */
+}

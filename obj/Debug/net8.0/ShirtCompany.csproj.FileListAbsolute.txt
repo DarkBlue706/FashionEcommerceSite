@@ -276,3 +276,4 @@ C:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\ShirtCompany
 C:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\ref\ShirtCompany.dll
 C:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Home\Login.cshtml.rz.scp.css
 C:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Home\Register.cshtml.rz.scp.css
+c:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css

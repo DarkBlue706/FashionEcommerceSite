@@ -2,24 +2,25 @@
 @{
     ViewData["Title"] = "Login";
 }
+<div class="form-container">
+    <form action="/home/Login" method="post">
+        @Html.AntiForgeryToken()
 
-<form action="/home/Login" method="post">
-    @Html.AntiForgeryToken()
+        <!-- Username Field -->
+        <div class="form-group row">
+            <label for="exampleInputUsername">Username</label>
+            <input type="text" class="form-control" id="exampleInputUsername" placeholder="Enter username" asp-for="Username">
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
 
-    <!-- Username Field -->
-    <div class="form-group row">
-        <label for="exampleInputUsername">Username</label>
-        <input type="text" class="form-control" id="exampleInputUsername" placeholder="Enter username" asp-for="Username">
-        <span asp-validation-for="Username" class="text-danger"></span>
-    </div>
+        <!-- Password Field -->
+        <div class="form-group row">
+            <label for="exampleInputPassword">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword" placeholder="Enter password" asp-for="Password">
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
 
-    <!-- Password Field -->
-    <div class="form-group row">
-        <label for="exampleInputPassword">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword" placeholder="Enter password" asp-for="Password">
-        <span asp-validation-for="Password" class="text-danger"></span>
-    </div>
-
-    <!-- Submit Button -->
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</div>

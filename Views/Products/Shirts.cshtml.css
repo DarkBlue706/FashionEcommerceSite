@@ -1,0 +1,52 @@
+.glyphicon {
+    margin-right: 5px;
+}
+
+.thumbnail {
+    margin-bottom: 20px;
+    padding: 0;
+    border-radius: 0;
+}
+
+.item.list-group-item {
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.item.list-group-item:nth-of-type(odd):hover,
+.item.list-group-item:hover {
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image {
+    margin-right: 10px;
+}
+
+.item.list-group-item .thumbnail {
+    margin-bottom: 0;
+}
+
+.item.list-group-item .caption {
+    padding: 9px 9px 0 9px;
+}
+
+.item.list-group-item:nth-of-type(odd) {
+    background: #eeeeee;
+}
+
+.item.list-group-item img {
+    float: left;
+    max-width: 100%;   /* Ensures the image scales down */
+    height: auto;      /* Ensures the image scales proportionally */
+}
+
+.product-list .thumbnail img {
+    width: 100%;        /* Ensures the image takes full width of the container */
+    max-width: 400px;    /* Sets a maximum width of 400px */
+    max-height: 250px;   /* Sets a maximum height of 250px */
+    object-fit: cover;   /* Ensures the image fits within the specified dimensions */
+    display: block;      /* Ensures the image behaves as a block element */
+    margin: 0 auto;      /* Centers the image horizontally */
+}

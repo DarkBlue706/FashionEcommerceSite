@@ -1,0 +1,57 @@
+.glyphicon[b-ja4q0fl37v] { margin-right:5px; }
+.thumbnail[b-ja4q0fl37v]
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item[b-ja4q0fl37v]
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover[b-ja4q0fl37v],.item.list-group-item:hover[b-ja4q0fl37v]
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image[b-ja4q0fl37v]
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail[b-ja4q0fl37v]
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption[b-ja4q0fl37v]
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)[b-ja4q0fl37v]
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item[b-ja4q0fl37v]:before, .item.list-group-item[b-ja4q0fl37v]:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img[b-ja4q0fl37v]
+{
+    float: left;
+}
+.item.list-group-item[b-ja4q0fl37v]:after
+{
+    clear: both;
+}
+.list-group-item-text[b-ja4q0fl37v]
+{
+    margin: 0 0 11px;
+}

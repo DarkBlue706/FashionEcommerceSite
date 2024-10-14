@@ -2,56 +2,110 @@
     ViewData["Title"] = "Home Page";
 }
 
+<!-- Add some inline CSS to manage the grid layout and image size -->
+<style>
+    /* Home Banner Styling */
+    #home-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        height: 30vh; /* Adjust height to 50% of the viewport */
+        padding: 20px; /* Add some padding for spacing */
+        background-color: #f4f4f4; /* Optional background color */
+    }
+
+    /* Products Grid Styling */
+    .products-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Spacing between items */
+        justify-content: space-between; /* Evenly space the items */
+    }
+
+    .product {
+        flex: 1 1 300px; /* Each item will take up minimum 300px and grow if space is available */
+        max-width: 300px; /* Maximum width to constrain the size */
+        text-align: center; /* Center content inside each product */
+    }
+
+    .product img {
+        width: 100%; /* Set the image to scale with the container */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 250px; /* Limit the image width to 250px */
+        margin-bottom: 10px; /* Add spacing below the image */
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 8px 12px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+</style>
+
 <section id="home-banner">
     <h2>Welcome to Our Store!</h2>
-    <p>Your one-stop shop for the latest in fashion: shirts, pants, shoes and hats!</p>
+    <p>Your one-stop shop for the latest in fashion: shirts, pants, shoes, and hats!</p>
 </section>
 
 <section id="featured-products">
     <h3>Featured Products</h3>
     <div class="products-grid">
-
         <div class="product">
             <img src="~/images/samples/DesignerShirts.jpeg" alt="Shirts" />
             <h4>Shirts</h4>
             <p>Casual and formal shirts for every occasion.</p>
-            <a href="/Home/Shirts" class="btn">Shop Shirts</a>
+            <a href="/Products/Shirts" class="btn">Shop Shirts</a>
         </div>
         <div class="product">
             <img src="~/images/samples/DesignerShirts2.jpeg" alt="Shirts" />
             <h4>Shirts</h4>
             <p>Casual and formal shirts for every occasion.</p>
-            <a href="/Home/Shirts" class="btn">Shop Shirts</a>
+            <a href="/Products/Shirts" class="btn">Shop Shirts</a>
         </div>
         <div class="product">
-            <img src="~/images/samples/PantsDesignLogo.jpeg" alt="Pants" />
+            <img src="~/images/samples/pantsDesignLogo2.webp" alt="Pants" />
             <h4>Pants</h4>
             <p>Comfortable and stylish bottoms.</p>
-            <a href="/Home/Pants" class="btn">Shop Pants</a>
+            <a href="/Products/Pants" class="btn">Shop Pants</a>
+        </div>
+        <div class="product">
+            <img src="~/images/samples/pantsDesignLogo.jpeg" alt="Pants" />
+            <h4>Pants</h4>
+            <p>Comfortable and stylish bottoms.</p>
+            <a href="/Products/Pants" class="btn">Shop Pants</a>
         </div>
         <div class="product">
             <img src="~/images/samples/hatsDesignLogo.webp" alt="Hats" />
             <h4>Hats</h4>
             <p>Complete your look with our collection of hats.</p>
-            <a href="/Home/Hats" class="btn">Shop Hats</a>
+            <a href="/Products/Hats" class="btn">Shop Hats</a>
         </div>
         <div class="product">
             <img src="~/images/samples/GothStyleDesignLogo.jpeg" alt="Collection" />
             <h4>Hats</h4>
             <p>Different styles for different swags.</p>
-            <a href="/Home/Hats" class="btn">Shop Hats</a>
+            <a href="/Products/Hats" class="btn">Shop Hats</a>
         </div>
         <div class="product">
             <img src="~/images/samples/ShoesDesignLogo.jpeg" alt="Shoes" />
-            <h4>Hats</h4>
+            <h4>Shoes</h4>
             <p>Different styles for different swags.</p>
-            <a href="/Home/Hats" class="btn">Shop Hats</a>
+            <a href="/Products/Shoes" class="btn">Shop Shoes</a>
         </div>
         <div class="product">
             <img src="~/images/samples/ShoesDesignLogo2.webp" alt="Shoes" />
-            <h4>Hats</h4>
+            <h4>Shoes</h4>
             <p>Different styles for different swags.</p>
-            <a href="/Home/Hats" class="btn">Home Hats</a>
+            <a href="/Products/Shoes" class="btn">Shop Shoes</a>
         </div>
     </div>
 </section>
