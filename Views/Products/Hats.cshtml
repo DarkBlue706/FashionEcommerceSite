@@ -16,7 +16,7 @@
             <p>Brand: @product.Brand</p>
 
             <!-- Display the product image -->
-            <img src="@Url.Content("~/images/hats/" + product.Image)" alt="@product.Name" class="group list-group-image" />
+            <img src="@Url.Content("~" + product.Image)" alt="@product.Name" class="group list-group-image" />
 
 
             <a href="/Products/Details/@product.ProductID">View Details</a>
