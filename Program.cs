@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ShirtCompany.Models;
+using ShirtCompany.Filters.ActionFilters;
+using ShirtCompany.Filters.ExceptionFilters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,11 +9,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Configure the SQLite connection
- builder.Services.AddDbContext<UserDBContext>(options =>
-     options.UseSqlite(builder.Configuration.GetConnectionString("ShirtCompanyDatabase")));
+builder.Services.AddDbContext<UserDBContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("ShirtCompanyDatabase")));
 
- builder.Services.AddDbContext<ShirtDBContext>(options =>
-     options.UseSqlite(builder.Configuration.GetConnectionString("ShirtCompanyDatabase")));
+ builder.Services.AddDbContext<ProductDBContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("ShirtCompanyDatabase")));
+
+ builder.Services.AddDbContext<CartItemDBContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("ShirtCompanyDatabase")));
+
+builder.Services.AddScoped<Product_ValidateProductIdFilterAttribute>();
+builder.Services.AddScoped<Product_HandleUpdateExceptionsFilterAttribute>();
+builder.Services.AddScoped<Product_ValidateProductPriceFilter>();
 
 var app = builder.Build();
 

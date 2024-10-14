@@ -9,63 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShirtCompany
 build_property.RootNamespace = ShirtCompany
-build_property.ProjectDir = C:\Users\cthom\dotnet-course-code\ShirtCompany\
+build_property.ProjectDir = c:\Users\cthom\dotnet-course-code\ECommerceFashion\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\cthom\dotnet-course-code\ShirtCompany
+build_property.MSBuildProjectDirectory = c:\Users\cthom\dotnet-course-code\ECommerceFashion
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Catergories/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZXJnb3JpZXNcRWRpdC5jc2h0bWw=
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/CartItem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Catergories/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZXJnb3JpZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Home/AddUsers.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRVc2Vycy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Home/Index.cshtml]
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Shared/Error.cshtml]
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93U2VhcmNoRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/_ViewImports.cshtml]
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/_ViewStart.cshtml]
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Catergories/Hats.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZXJnb3JpZXNcSGF0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-7evolds6oz
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-zhuutouqd5
 
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Catergories/Pants.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZXJnb3JpZXNcUGFudHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-6oto2faysw
-
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Catergories/Shirts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZXJnb3JpZXNcU2hpcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-flssg4pe7k
-
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Home/Privacy.cshtml]
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-4kd5wsfgn2
 
-[C:/Users/cthom/dotnet-course-code/ShirtCompany/Views/Shared/_Layout.cshtml]
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-kehex0p0jl
+
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Hats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSGF0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-ut6dlh3iiz
+
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Pants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUGFudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ja4q0fl37v
+
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Shirts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2hpcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-83x4fbzd5v
+
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Shoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2hvZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hf3fq2er7a
+
+[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4wddroeqvy

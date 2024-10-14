@@ -1,8 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
 
 namespace ShirtCompany.Models
 {
-    public class UserDBContext : DbContext
+    public class UserDBContext : IdentityDbContext
     {
         public DbSet<UserModel> Users {get; set;}
 

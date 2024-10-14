@@ -1,0 +1,16 @@
+<h4>Search for products</h4>
+
+@{
+    ViewData["Title"] = "Search";
+}
+
+<form asp-action="ShowSearchResults">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="SearchPhrase" class = "control-label"</label>
+        <input name="SearchPhrase" class="form-control"/>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>

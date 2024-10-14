@@ -1,126 +1,108 @@
-/* _content/ShirtCompany/Views/Catergories/Hats.cshtml.rz.scp.css */
-/* Style to center the warning-content */
-.center-container[b-7evolds6oz] {
+/* _content/ShirtCompany/Views/Home/Login.cshtml.rz.scp.css */
+/* General body styling */
+body[b-zhuutouqd5] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 40vh; /* Adjust to your needs */
-    background-color: #EEEEF4; /* Background color for the top portion */
+    height: 100vh;
 }
 
-/* Style for warning-content */
-.warning-content[b-7evolds6oz] {
+/* Styling the form container */
+form[b-zhuutouqd5] {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Form title styling */
+h2[b-zhuutouqd5] {
     text-align: center;
-    max-width: 800px;
-    color: #999;
-    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
-.warning-content h1[b-7evolds6oz] {
-    font-weight: 100;
-    font-size: 27pt;
-    color: #E43;
+/* Styling for form fields */
+.form-group[b-zhuutouqd5] {
+    margin-bottom: 20px;
 }
 
-.warning-content p[b-7evolds6oz] {
-    font-weight: 300;
+.form-group label[b-zhuutouqd5] {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
 }
 
-/* Typewriter styles */
-.typewriter[b-7evolds6oz] {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh; /* Adjust as needed */
-    background-color: #333;
+.form-control[b-zhuutouqd5] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.typewriter h1[b-7evolds6oz] {
-    color: #fff;
-    font-family: monospace;
-    overflow: hidden; /* Ensure content is hidden until animation reveals it */
-    border-right: .15em solid orange; /* Cursor effect */
-    white-space: nowrap; /* Prevent text wrapping */
-    letter-spacing: .15em;
-    animation: 
-        typing-b-7evolds6oz 3.5s steps(18, end),
-        blink-caret-b-7evolds6oz .5s step-end infinite;
+.form-control:focus[b-zhuutouqd5] {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    outline: none;
 }
 
-/* Typing effect */
-@keyframes typing-b-7evolds6oz {
-    from { width: 0; }
-    to { width: 12ch; } /* Length of the text "We'll be right back! :)" */
+/* Validation message styling */
+.text-danger[b-zhuutouqd5] {
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+    display: block;
 }
 
-/* Blinking cursor effect */
-@keyframes blink-caret-b-7evolds6oz {
-    from, to { border-color: transparent; }
-    50% { border-color: orange; }
-}
-/* _content/ShirtCompany/Views/Catergories/Pants.cshtml.rz.scp.css */
-/* Style to center the warning-content */
-.center-container[b-6oto2faysw] {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 40vh; /* Adjust to your needs */
-    background-color: #EEEEF4; /* Background color for the top portion */
+/* Button styling */
+.btn-primary[b-zhuutouqd5] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-/* Style for warning-content */
-.warning-content[b-6oto2faysw] {
-    text-align: center;
-    max-width: 800px;
-    color: #999;
-    font-family: 'Roboto', sans-serif;
+.btn-primary:hover[b-zhuutouqd5] {
+    background-color: #0056b3;
 }
 
-.warning-content h1[b-6oto2faysw] {
-    font-weight: 100;
-    font-size: 27pt;
-    color: #E43;
+/* Small help text */
+.form-text[b-zhuutouqd5] {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
 }
 
-.warning-content p[b-6oto2faysw] {
-    font-weight: 300;
-}
+/* Responsive form */
+@media (max-width: 768px) {
+    form[b-zhuutouqd5] {
+        padding: 20px;
+    }
 
-/* Typewriter styles */
-.typewriter[b-6oto2faysw] {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh; /* Adjust as needed */
-    background-color: #333;
+    .btn-primary[b-zhuutouqd5] {
+        font-size: 14px;
+    }
 }
-
-.typewriter h1[b-6oto2faysw] {
-    color: #fff;
-    font-family: monospace;
-    overflow: hidden; /* Ensure content is hidden until animation reveals it */
-    border-right: .15em solid orange; /* Cursor effect */
-    white-space: nowrap; /* Prevent text wrapping */
-    letter-spacing: .15em;
-    animation: 
-        typing-b-6oto2faysw 3.5s steps(18, end),
-        blink-caret-b-6oto2faysw .5s step-end infinite;
-}
-
-/* Typing effect */
-@keyframes typing-b-6oto2faysw {
-    from { width: 0; }
-    to { width: 12ch; } /* Length of the text "Coming Soon! :)" */
-}
-
-/* Blinking cursor effect */
-@keyframes blink-caret-b-6oto2faysw {
-    from, to { border-color: transparent; }
-    50% { border-color: orange; }
-}
-/* _content/ShirtCompany/Views/Catergories/Shirts.cshtml.rz.scp.css */
 /* _content/ShirtCompany/Views/Home/Privacy.cshtml.rz.scp.css */
 body[b-4kd5wsfgn2] {
     font-family: 'Arial', sans-serif;
@@ -180,6 +162,11 @@ footer[b-4kd5wsfgn2] {
     font-size: 0.9em;
     color: #aaa;
 }
+/* _content/ShirtCompany/Views/Home/Register.cshtml.rz.scp.css */
+/* _content/ShirtCompany/Views/Products/Hats.cshtml.rz.scp.css */
+/* _content/ShirtCompany/Views/Products/Pants.cshtml.rz.scp.css */
+/* _content/ShirtCompany/Views/Products/Shirts.cshtml.rz.scp.css */
+/* _content/ShirtCompany/Views/Products/Shoes.cshtml.rz.scp.css */
 /* _content/ShirtCompany/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
