@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using ShirtCompany.Models;
 using ShirtCompany.Filters.ActionFilters;
 using ShirtCompany.Filters.ExceptionFilters;
+using ShirtCompany.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,9 @@ builder.Services.AddDbContext<UserDBContext>(options =>
 builder.Services.AddScoped<Product_ValidateProductIdFilterAttribute>();
 builder.Services.AddScoped<Product_HandleUpdateExceptionsFilterAttribute>();
 builder.Services.AddScoped<Product_ValidateProductPriceFilter>();
+builder.Services.AddScoped<CartService>();
+builder.Services.AddSession();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 var app = builder.Build();
 
@@ -33,19 +37,13 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.MapControllers();
-
 app.UseStaticFiles();
-
 //app.UseAuthorization();      // Enables authentication/authorization middlewar
 // API Routing
-
+app.UseSession();
 app.UseRouting(); 
-
-
 app.UseAuthorization();
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -1,5 +1,5 @@
 using System.Text.Json;
-using System.Threading.Tasks;  // Include this namespace for async tasks
+using System.Threading.Tasks;  
 using ShirtCompany.Models;
 
 namespace ShirtCompany.Services
@@ -41,19 +41,22 @@ namespace ShirtCompany.Services
             // Using Task.CompletedTask to align with async nature
             await Task.CompletedTask;
         }
-
         public async Task AddToCartAsync(CartItem item)
         {
             var cart = await GetCartAsync();
             var existingItem = cart.Items.FirstOrDefault(i => i.ProductId == item.ProductId);
+
             if (existingItem == null)
             {
-                cart.Items.Add(item);
+                Console.WriteLine($"Adding new item: {item.ProductId} with quantity {item.Quantity}");
+                cart.Items.Add(item); 
             }
             else
             {
                 existingItem.Quantity += item.Quantity;
+                Console.WriteLine($"Incrementing quantity for item {existingItem.ProductId}. New quantity: {existingItem.Quantity}");
             }
+
             await SaveCartAsync(cart);
         }
 

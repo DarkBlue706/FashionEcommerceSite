@@ -9,6 +9,7 @@
     @foreach (var product in Model)
     {
         <div class="product-item">
+            <img src="@Url.Content("~" + product.Image)" alt="@product.Name" class="group list-group-image" />
             <h4>@product.Name</h4>
             <p>@product.Description</p>
             <p>Price: @product.Price</p>
@@ -16,11 +17,17 @@
             <p>Brand: @product.Brand</p>
             <p>Description: @product.Description</p>
 
-            <!-- Display the product image -->
-            <img src="@Url.Content("~" + product.Image)" alt="@product.Name" class="group list-group-image" />
+            <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                <input type="hidden" name="productId" value="@product.ProductID" />
+                
+                <!-- Quantity input field -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1" class="form-control" />
+                
+                <button type="submit" class="btn btn-primary">Add to Cart</button>
+            </form>
 
-
-            <a href="/Products/Details/@product.ProductID">View Details</a>
+            @* <a href="/Products/Details/@product.ProductID">View Details</a> *@
         </div>
         <br />
     }

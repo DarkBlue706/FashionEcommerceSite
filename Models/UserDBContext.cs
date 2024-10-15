@@ -6,7 +6,7 @@ namespace ShirtCompany.Models
 {
     public class UserDBContext : IdentityDbContext
     {
-        public DbSet<UserModel> Users {get; set;}
+        public DbSet<UserModel>  Users {get; set;}
 
         public UserDBContext(DbContextOptions<UserDBContext> options)
             : base(options)

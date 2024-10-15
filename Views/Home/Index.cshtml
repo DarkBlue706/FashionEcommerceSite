@@ -2,58 +2,10 @@
     ViewData["Title"] = "Home Page";
 }
 
-<!-- Add some inline CSS to manage the grid layout and image size -->
-<style>
-    /* Home Banner Styling */
-    #home-banner {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        height: 30vh; /* Adjust height to 50% of the viewport */
-        padding: 20px; /* Add some padding for spacing */
-        background-color: #f4f4f4; /* Optional background color */
-    }
-
-    /* Products Grid Styling */
-    .products-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px; /* Spacing between items */
-        justify-content: space-between; /* Evenly space the items */
-    }
-
-    .product {
-        flex: 1 1 300px; /* Each item will take up minimum 300px and grow if space is available */
-        max-width: 300px; /* Maximum width to constrain the size */
-        text-align: center; /* Center content inside each product */
-    }
-
-    .product img {
-        width: 100%; /* Set the image to scale with the container */
-        height: auto; /* Maintain aspect ratio */
-        max-width: 250px; /* Limit the image width to 250px */
-        margin-bottom: 10px; /* Add spacing below the image */
-    }
-
-    .btn {
-        display: inline-block;
-        padding: 8px 12px;
-        background-color: #007bff;
-        color: white;
-        text-decoration: none;
-        border-radius: 4px;
-    }
-
-    .btn:hover {
-        background-color: #0056b3;
-    }
-</style>
-
 <section id="home-banner">
     <h2>Welcome to Our Store!</h2>
     <p>Your one-stop shop for the latest in fashion: shirts, pants, shoes, and hats!</p>
+    <img src="~/images/samples/bannerlogo.webp" alt="Home Banner" style="max-width: 100%; height: auto;" />
 </section>
 
 <section id="featured-products">
@@ -90,7 +42,7 @@
             <a href="/Products/Hats" class="btn">Shop Hats</a>
         </div>
         <div class="product">
-            <img src="~/images/samples/GothStyleDesignLogo.jpeg" alt="Collection" />
+            <img src="~/images/samples/GothStyleDesignLogo.jpeg" alt="Hats" />
             <h4>Hats</h4>
             <p>Different styles for different swags.</p>
             <a href="/Products/Hats" class="btn">Shop Hats</a>
@@ -107,10 +59,81 @@
             <p>Different styles for different swags.</p>
             <a href="/Products/Shoes" class="btn">Shop Shoes</a>
         </div>
+        <div class="product">
+            <img src="~/images/samples/BeltsDesignLogo.webp" alt="Belts" />
+            <h4>Belts</h4>
+            <p>Different styles for different swags.</p>
+            <a href="/Products/Belts" class="btn">Shop Belts</a>
+        </div>
+        <div class="product">
+            <img src="~/images/samples/BeltsDesignLogo2.webp" alt="Belts" />
+            <h4>Belts</h4>
+            <p>Different styles for different swags.</p>
+            <a href="/Products/Belts" class="btn">Shop Belts</a>
+        </div>
+        <div class="product">
+            <img src="~/images/samples/GlassesDesignLogo.webp" alt="Glasses" />
+            <h4>Glasses</h4>
+            <p>Stylish eyewear for every occasion.</p>
+            <a href="/Products/Glasses" class="btn">Shop Glasses</a>
+        </div>
+        <div class="product">
+            <img src="~/images/samples/GlassesDesignLogo2.webp" alt="Glasses" />
+            <h4>Glasses</h4>
+            <p>Stylish eyewear for every occasion.</p>
+            <a href="/Products/Glasses" class="btn">Shop Glasses</a>
+        </div>
     </div>
 </section>
 
-<section id="about">
-    <h3>About Us</h3>
-    <p>At our store, we offer high-quality fashion at affordable prices. Explore our latest collections and find the perfect outfit!</p>
+<section id="about-wrapper">
+    <div id="about">
+        <h3>About Us</h3>
+        <p>At our store, we offer high-quality fashion at affordable prices. Explore our latest collections and find the perfect outfit!</p>
+    </div>
 </section>
+
+<style>
+    #about-wrapper {
+        margin-top: 50px; /* Adds space above the about section */
+        padding: 20px; /* Optional padding inside the wrapper */
+    }
+
+    #about {
+        text-align: center;
+        background-color: #f4f4f4; /* Optional background color for styling */
+        padding: 20px; /* Add padding inside the about section for better spacing */
+        border-radius: 8px; /* Optional: rounded corners */
+    }
+
+    /* Products Grid Styling */
+    .products-grid {
+        display: grid; /* Use CSS Grid */
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Create responsive columns */
+        gap: 20px; /* Spacing between items */
+    }
+
+    .product {
+        text-align: center; /* Center content inside each product */
+    }
+
+    .product img {
+        width: 100%; /* Set the image to scale with the container */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 250px; /* Limit the image width to 250px */
+        margin-bottom: 10px; /* Add spacing below the image */
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 8px 12px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+</style>

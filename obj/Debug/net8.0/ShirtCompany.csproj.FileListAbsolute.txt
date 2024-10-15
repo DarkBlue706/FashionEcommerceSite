@@ -277,3 +277,6 @@ C:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\ref\ShirtCom
 C:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Home\Login.cshtml.rz.scp.css
 C:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Home\Register.cshtml.rz.scp.css
 c:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
+c:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Products\Belts.cshtml.rz.scp.css
+c:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Products\Glasses.cshtml.rz.scp.css
+c:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Cart\AddToCart.cshtml.rz.scp.css

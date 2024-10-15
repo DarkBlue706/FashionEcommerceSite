@@ -1,0 +1,43 @@
+@model Cart
+
+<div class="cart-container">
+    <h2>Your Cart</h2>
+
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        <input type="number" value="@item.Quantity" min="1" class="quantity-input" />
+                        <button class="update-btn" asp-action="UpdateCartItem" asp-route-productId="@item.ProductId">Update</button>
+                    </td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@item.Total.ToString("C")</td>
+                    <td>
+                        <a class="remove-btn" asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">Remove</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="cart-summary">
+        <h3>Grand Total: @Model.GrandTotal.ToString("C")</h3>
+
+        <div class="cart-actions">
+            <a class="clear-btn" asp-action="ClearCart">Clear Cart</a>
+            <a class="checkout-btn" asp-action="Checkout">Checkout</a>
+        </div>
+    </div>
+</div>

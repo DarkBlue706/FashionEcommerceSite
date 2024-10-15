@@ -27,25 +27,22 @@ namespace ShirtCompany.Controllers
         [HttpPost]
         public async Task<IActionResult> AddToCart(int productId, int quantity)
         {
-            // Fetch product details from the database asynchronously using ProductID
-            var product = await _productContext.Product.FindAsync(productId);  // Async call to the database
+            var product = await _productContext.Product.FindAsync(productId);
 
             if (product == null)
             {
-                // Handle the case where the product was not found
                 return NotFound();
             }
 
-            // Create a cart item from the fetched product
             var cartItem = new CartItem
             {
-                ProductId = product.ProductID,  // Ensure property names match your Product class
+                ProductId = product.ProductID,
                 Name = product.Name,
                 Quantity = quantity,
                 Price = (decimal)product.Price
             };
 
-            await _cartService.AddToCartAsync(cartItem);  // Ensure AddToCartAsync is awaited
+            await _cartService.AddToCartAsync(cartItem);
             return RedirectToAction("Index");
         }
 

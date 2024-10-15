@@ -61,5 +61,23 @@ namespace ShirtCompany.Controllers
 
             return View(shoes);
         }
+        public async Task<IActionResult> Belts()
+        {
+            // Fetch all products where the category is "Shoes"
+            var shoes = await _productContext.Product
+                .Where(p => p.Category == "Belts")
+                .ToListAsync();
+
+            return View(shoes);
+        }
+        public async Task<IActionResult> Glasses()
+        {
+            // Fetch all products where the category is "Shoes"
+            var shoes = await _productContext.Product
+                .Where(p => p.Category == "Glasses")
+                .ToListAsync();
+
+            return View(shoes);
+        }
     }
 }
