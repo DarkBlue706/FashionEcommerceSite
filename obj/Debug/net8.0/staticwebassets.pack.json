@@ -13,44 +13,44 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\agent007_belt.jpeg",
-      "PackagePath": "staticwebassets\\images\\belt\\agent007_belt.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\agent007_belt.jpeg",
+      "PackagePath": "staticwebassets\\images\\belts\\agent007_belt.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\asian_nativeamerican_belt.jpeg",
-      "PackagePath": "staticwebassets\\images\\belt\\asian_nativeamerican_belt.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\asian_nativeamerican_belt.jpeg",
+      "PackagePath": "staticwebassets\\images\\belts\\asian_nativeamerican_belt.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\clownstyle_belt.jpeg",
-      "PackagePath": "staticwebassets\\images\\belt\\clownstyle_belt.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\clownstyle_belt.jpeg",
+      "PackagePath": "staticwebassets\\images\\belts\\clownstyle_belt.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\cyber_belt.jpeg",
-      "PackagePath": "staticwebassets\\images\\belt\\cyber_belt.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\cyber_belt.jpeg",
+      "PackagePath": "staticwebassets\\images\\belts\\cyber_belt.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\goth1_belt.jpeg",
-      "PackagePath": "staticwebassets\\images\\belt\\goth1_belt.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth1_belt.jpeg",
+      "PackagePath": "staticwebassets\\images\\belts\\goth1_belt.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\goth2_belt.jpeg",
-      "PackagePath": "staticwebassets\\images\\belt\\goth2_belt.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth2_belt.jpeg",
+      "PackagePath": "staticwebassets\\images\\belts\\goth2_belt.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\ironskull_belt.jpeg",
-      "PackagePath": "staticwebassets\\images\\belt\\ironskull_belt.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\ironskull_belt.jpeg",
+      "PackagePath": "staticwebassets\\images\\belts\\ironskull_belt.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\metalagentbadge_belt.jpeg",
-      "PackagePath": "staticwebassets\\images\\belt\\metalagentbadge_belt.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\metalagentbadge_belt.jpeg",
+      "PackagePath": "staticwebassets\\images\\belts\\metalagentbadge_belt.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\neonswirl_belt.jpeg",
-      "PackagePath": "staticwebassets\\images\\belt\\neonswirl_belt.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\neonswirl_belt.jpeg",
+      "PackagePath": "staticwebassets\\images\\belts\\neonswirl_belt.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\spyguy.belt.jpeg",
-      "PackagePath": "staticwebassets\\images\\belt\\spyguy.belt.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\spyguybelt.jpeg",
+      "PackagePath": "staticwebassets\\images\\belts\\spyguybelt.jpeg"
     },
     {
       "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\clownbubbles_glasses.jpeg",
@@ -77,8 +77,8 @@
       "PackagePath": "staticwebassets\\images\\glasses\\mrspy_glasses.jpeg"
     },
     {
-      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrtechnicalspy.glasses.jpeg",
-      "PackagePath": "staticwebassets\\images\\glasses\\mrtechnicalspy.glasses.jpeg"
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrtechnicalspyglasses.jpeg",
+      "PackagePath": "staticwebassets\\images\\glasses\\mrtechnicalspyglasses.jpeg"
     },
     {
       "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\neon_glasses.jpeg",

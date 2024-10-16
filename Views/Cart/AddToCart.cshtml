@@ -19,8 +19,11 @@
                 <tr>
                     <td>@item.Name</td>
                     <td>
-                        <input type="number" value="@item.Quantity" min="1" class="quantity-input" />
-                        <button class="update-btn" asp-action="UpdateCartItem" asp-route-productId="@item.ProductId">Update</button>
+                        <form asp-action="UpdateCartItem" method="post">
+                            <input type="number" name="Quantity" value="@item.Quantity" min="1" class="quantity-input" />
+                            <input type="hidden" name="ProductId" value="@item.ProductId" />
+                            <button type="submit" class="update-btn">Update</button>
+                        </form>
                     </td>
                     <td>@item.Price.ToString("C")</td>
                     <td>@item.Total.ToString("C")</td>
@@ -38,6 +41,7 @@
         <div class="cart-actions">
             <a class="clear-btn" asp-action="ClearCart">Clear Cart</a>
             <a class="checkout-btn" asp-action="Checkout">Checkout</a>
+            <a class="continue-shopping-btn" asp-action="Index" asp-controller="Products">Continue Shopping</a>
         </div>
     </div>
 </div>

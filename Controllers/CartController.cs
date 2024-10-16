@@ -45,6 +45,18 @@ namespace ShirtCompany.Controllers
             await _cartService.AddToCartAsync(cartItem);
             return RedirectToAction("Index");
         }
+        [HttpPost]
+        public async Task<IActionResult> UpdateCartItem(int productId, int quantity)
+        {
+            if (quantity < 1)
+            {
+                // Optionally handle bad input and return a response or log it
+                return BadRequest("Quantity must be at least 1.");
+            }
+
+            await _cartService.UpdateCartItemAsync(productId, quantity);
+            return RedirectToAction("Index");
+        }      
 
         public async Task<IActionResult> RemoveFromCart(int productId)
         {

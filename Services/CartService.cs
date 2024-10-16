@@ -59,6 +59,27 @@ namespace ShirtCompany.Services
 
             await SaveCartAsync(cart);
         }
+        public async Task UpdateCartItemAsync(int productId, int quantity)
+        {
+            var cart = await GetCartAsync();
+            var existingItem = cart.Items.FirstOrDefault(i => i.ProductId == productId);
+
+            if (existingItem != null)
+            {
+                // If quantity is 0 or less, remove the item from the cart
+                if (quantity <= 0)
+                {
+                    cart.Items.Remove(existingItem);
+                }
+                else
+                {
+                    // Update the quantity of the existing item
+                    existingItem.Quantity = quantity;
+                }
+
+                await SaveCartAsync(cart);
+            }
+        }   
 
         public async Task RemoveFromCartAsync(int productId)
         {
@@ -75,5 +96,6 @@ namespace ShirtCompany.Services
         {
             await SaveCartAsync(new Cart());
         }
+        
     }
 }

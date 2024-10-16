@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z/jn6xCSlJ5/AHxbMgPU1ZzNyuQx7hNIGuUuQO2KfE4=",
+  "Hash": "lcG9CIXdWpiNvMqQ0kIk7FhZYKrDjMetHFLkgz8QMec=",
   "Source": "ShirtCompany",
   "BasePath": "_content/ShirtCompany",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\agent007_belt.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\agent007_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/belt/agent007_belt.jpeg",
+      "RelativePath": "images/belts/agent007_belt.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\belt\\agent007_belt.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\belts\\agent007_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\asian_nativeamerican_belt.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\asian_nativeamerican_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/belt/asian_nativeamerican_belt.jpeg",
+      "RelativePath": "images/belts/asian_nativeamerican_belt.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\belt\\asian_nativeamerican_belt.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\belts\\asian_nativeamerican_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\clownstyle_belt.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\clownstyle_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/belt/clownstyle_belt.jpeg",
+      "RelativePath": "images/belts/clownstyle_belt.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\belt\\clownstyle_belt.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\belts\\clownstyle_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\cyber_belt.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\cyber_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/belt/cyber_belt.jpeg",
+      "RelativePath": "images/belts/cyber_belt.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\belt\\cyber_belt.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\belts\\cyber_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\goth1_belt.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth1_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/belt/goth1_belt.jpeg",
+      "RelativePath": "images/belts/goth1_belt.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\belt\\goth1_belt.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\belts\\goth1_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\goth2_belt.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth2_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/belt/goth2_belt.jpeg",
+      "RelativePath": "images/belts/goth2_belt.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\belt\\goth2_belt.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\belts\\goth2_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\ironskull_belt.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\ironskull_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/belt/ironskull_belt.jpeg",
+      "RelativePath": "images/belts/ironskull_belt.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,15 +223,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\belt\\ironskull_belt.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\belts\\ironskull_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\metalagentbadge_belt.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\metalagentbadge_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/belt/metalagentbadge_belt.jpeg",
+      "RelativePath": "images/belts/metalagentbadge_belt.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\belt\\metalagentbadge_belt.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\belts\\metalagentbadge_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\neonswirl_belt.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\neonswirl_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/belt/neonswirl_belt.jpeg",
+      "RelativePath": "images/belts/neonswirl_belt.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,15 +261,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\belt\\neonswirl_belt.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\belts\\neonswirl_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belt\\spyguy.belt.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\spyguybelt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/belt/spyguy.belt.jpeg",
+      "RelativePath": "images/belts/spyguybelt.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,7 +280,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\belt\\spyguy.belt.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\belts\\spyguybelt.jpeg"
     },
     {
       "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\clownbubbles_glasses.jpeg",
@@ -397,12 +397,12 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\mrspy_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrtechnicalspy.glasses.jpeg",
+      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrtechnicalspyglasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
       "BasePath": "_content/ShirtCompany",
-      "RelativePath": "images/glasses/mrtechnicalspy.glasses.jpeg",
+      "RelativePath": "images/glasses/mrtechnicalspyglasses.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -413,7 +413,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\glasses\\mrtechnicalspy.glasses.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\glasses\\mrtechnicalspyglasses.jpeg"
     },
     {
       "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\neon_glasses.jpeg",

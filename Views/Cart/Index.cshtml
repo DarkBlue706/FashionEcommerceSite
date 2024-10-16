@@ -1,30 +1,47 @@
 @model Cart
 
-<h2>Your Cart</h2>
+<div class="cart-container">
+    <h2>Your Cart</h2>
 
-<table>
-    <tr>
-        <th>Product</th>
-        <th>Quantity</th>
-        <th>Price</th>
-        <th>Total</th>
-        <th>Action</th>
-    </tr>
-    @foreach (var item in Model.Items)
-    {
-        <tr>
-            <td>@item.Name</td>
-            <td>@item.Quantity</td>
-            <td>@item.Price.ToString("C")</td>
-            <td>@item.Total.ToString("C")</td>
-            <td>
-                <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">Remove</a>
-            </td>
-        </tr>
-    }
-</table>
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        <form asp-action="UpdateCartItem" method="post">
+                            <input type="number" name="Quantity" value="@item.Quantity" min="1" class="quantity-input" />
+                            <input type="hidden" name="ProductId" value="@item.ProductId" />
+                            <button type="submit" class="update-btn">Update</button>
+                        </form>
+                    </td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@item.Total.ToString("C")</td>
+                    <td>
+                        <a class="remove-btn" asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">Remove</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 
-<h3>Grand Total: @Model.GrandTotal.ToString("C")</h3>
+    <div class="cart-summary">
+        <h3>Grand Total: @Model.GrandTotal.ToString("C")</h3>
 
-<a asp-action="ClearCart">Clear Cart</a>
-<a asp-action="Checkout">Checkout</a>
+        <div class="cart-actions">
+            <a class="clear-btn" asp-action="ClearCart">Clear Cart</a>
+            <a class="checkout-btn" asp-action="Checkout">Checkout</a>
+            <a class="continue-shopping-btn" asp-action="Index" asp-controller="Products">Continue Shopping</a>
+        </div>
+    </div>
+</div>
