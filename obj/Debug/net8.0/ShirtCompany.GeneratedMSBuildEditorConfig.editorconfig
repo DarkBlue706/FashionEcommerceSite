@@ -18,78 +18,82 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\cthom\dotnet-course-code\ECommerceFashion
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Cart/Index.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/ShowSearchForm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93U2VhcmNoRm9ybS5jc2h0bWw=
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Index.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Shared/Error.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/_ViewImports.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/_ViewStart.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Cart/AddToCart.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Cart/AddToCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxBZGRUb0NhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qcm1t3udrg
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Index.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-dzsxvbzpiv
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Login.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-zhuutouqd5
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Privacy.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-4kd5wsfgn2
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Register.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-kehex0p0jl
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Belts.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Home/SuccessfulRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdWNjZXNzZnVsUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0kkucf5iut
+
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Belts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQmVsdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-isngs87j2h
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Glasses.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Glasses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcR2xhc3Nlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-a524z34shy
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Hats.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Hats.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSGF0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-ut6dlh3iiz
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Pants.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Pants.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUGFudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ja4q0fl37v
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Shirts.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Shirts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2hpcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-83x4fbzd5v
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Shoes.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Products/Shoes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2hvZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hf3fq2er7a
 
-[c:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Shared/_Layout.cshtml]
+[C:/Users/cthom/dotnet-course-code/ECommerceFashion/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4wddroeqvy

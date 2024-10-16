@@ -280,3 +280,4 @@ c:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Vi
 c:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Products\Belts.cshtml.rz.scp.css
 c:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Products\Glasses.cshtml.rz.scp.css
 c:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Cart\AddToCart.cshtml.rz.scp.css
+C:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Home\SuccessfulRegister.cshtml.rz.scp.css

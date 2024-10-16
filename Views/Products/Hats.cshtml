@@ -3,7 +3,7 @@
     Layout = "_Layout";
 }
 
-<h3>Hats</h3>
+<h3>Hats, top of your style, top of the line.</h3>
 <br />
 <div class="product-list">
     @foreach (var product in Model)
@@ -11,7 +11,6 @@
         <div class="product-item">
             <img src="@Url.Content("~" + product.Image)" alt="@product.Name" class="group list-group-image" />
             <h4>@product.Name</h4>
-            <p>@product.Description</p>
             <p>Price: @product.Price</p>
             <p>Category: @product.Category</p>
             <p>Brand: @product.Brand</p>

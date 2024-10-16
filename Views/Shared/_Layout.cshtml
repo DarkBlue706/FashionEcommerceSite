@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ShirtCompany.styles.css" asp-append-version="true" />
+    
+
+    
 </head>
 <body>
     <header>
@@ -48,11 +51,10 @@
                     </ul>
                     
 
-                    <!-- Search bar -->
-                    <form class="d-flex" asp-controller="Products" asp-action="Search">
-                        <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                <form class="d-flex" asp-controller="Home" asp-action="Search" method="get">
+                    <input class="form-control me-2" type="search" name="query" placeholder="Search by category" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
 
                 </div>
             </div>

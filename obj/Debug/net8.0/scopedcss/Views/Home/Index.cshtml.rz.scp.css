@@ -1,0 +1,19 @@
+#home-banner[b-dzsxvbzpiv] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh; /* Full-screen height */
+    padding: 80px;
+}
+
+#home-banner h2[b-dzsxvbzpiv], #home-banner p[b-dzsxvbzpiv] {
+    margin: 10px 0;
+}
+
+h3[b-dzsxvbzpiv] {
+    text-align: center;
+}
+
+

@@ -1,0 +1,46 @@
+@model IEnumerable<ShirtCompany.Models.Product>
+
+@{
+    ViewData["Title"] = "Search";
+    var searchPhrase = ViewData["SearchPhrase"]?.ToString() ?? "";
+}
+
+<h4>Search for products</h4>
+
+<form asp-action="Search" method="get">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="SearchPhrase" class="control-label">Search by Category</label>
+        <input name="query" class="form-control" value="@searchPhrase" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@if (!Model.Any())
+{
+    <p>No products found for the specified category.</p>
+}
+else
+{
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Category</td>
+                    <td>@product.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

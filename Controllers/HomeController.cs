@@ -63,16 +63,22 @@ public class HomeController : Controller
     }
 
 
-        public IActionResult Register(UserModel user)
+    public IActionResult Register(UserModel user)
     {
     if (ModelState.IsValid)
     {
         _userContext.Users.Add(user);
         _userContext.SaveChanges();
-        return RedirectToAction("Index");
+        return RedirectToAction("SuccessfulRegister");
     }
-     return View(user);
+    return View(user);
     }
+
+    public IActionResult SuccessfulRegister()
+    {
+        return View();
+    }
+
     public async Task<IActionResult> Shoes()
     {
         // Fetch all products where Category is "Shoes"
@@ -106,27 +112,38 @@ public class HomeController : Controller
         return View(shoes);
     }
 
-
-
-
-    public async Task<IActionResult> ShowSearchForm()
+    [HttpGet]
+    public IActionResult Search(string query)
     {
-        return View();
+        ViewData["SearchPhrase"] = query;
+
+        if (string.IsNullOrWhiteSpace(query))
+        {
+            // Return all products if no query is provided
+            var allProducts = _productContext.Product.ToList();
+            return View(allProducts);
+        }
+
+        // Search for products where the category contains the query (case-insensitive)
+        var result = _productContext.Product
+            .Where(p => p.Category.Contains(query))
+            .ToList();
+
+        return View(result);
     }
-    
-    // public async Task<IActionResult> ShowSearchResults(string SearchPhrase)
-    // {
-    //     // Query the products in the database where the Category matches the SearchPhrase
-    //     var filteredProducts = await _productContext.Product
-    //         .Where(p => p.Category.Contains(SearchPhrase))
-    //         .ToListAsync();
-        
-    //     // Return the filtered list of products to the view
-    //     return View(filteredProducts);
-    // }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult ShowSearchResults(string SearchPhrase)
+        {
+                // Query the database for products with a matching category
+            var results = _productContext.Product
+                .Where(p => p.Category.Contains(SearchPhrase))
+                .ToList();
 
-    // If the model state is invalid, return the same view with the model to show validation errors
+                // Return the results to a view
+            return View(results);
+        }
    
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

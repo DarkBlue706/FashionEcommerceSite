@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lcG9CIXdWpiNvMqQ0kIk7FhZYKrDjMetHFLkgz8QMec=",
+  "Hash": "svXtwbGIlG0Fx3fvNLB2kB0G7dvCn0BW3P92vgmo2Uk=",
   "Source": "ShirtCompany",
   "BasePath": "_content/ShirtCompany",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShirtCompany.styles.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShirtCompany.styles.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ShirtCompany",
       "RelativePath": "ShirtCompany.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShirtCompany.styles.css"
+      "OriginalItemSpec": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShirtCompany.styles.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShirtCompany.bundle.scp.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShirtCompany.bundle.scp.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ShirtCompany",
       "RelativePath": "ShirtCompany.bundle.scp.css",
       "AssetKind": "All",
@@ -52,10 +52,10 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShirtCompany.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShirtCompany.bundle.scp.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\css\\site.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -74,7 +74,7 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\favicon.ico",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -93,7 +93,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\agent007_belt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\agent007_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -112,7 +112,7 @@
       "OriginalItemSpec": "wwwroot\\images\\belts\\agent007_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\asian_nativeamerican_belt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\asian_nativeamerican_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -131,7 +131,7 @@
       "OriginalItemSpec": "wwwroot\\images\\belts\\asian_nativeamerican_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\clownstyle_belt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\clownstyle_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -150,7 +150,7 @@
       "OriginalItemSpec": "wwwroot\\images\\belts\\clownstyle_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\cyber_belt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\cyber_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -169,7 +169,7 @@
       "OriginalItemSpec": "wwwroot\\images\\belts\\cyber_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth1_belt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth1_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -188,7 +188,7 @@
       "OriginalItemSpec": "wwwroot\\images\\belts\\goth1_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth2_belt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth2_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -207,7 +207,7 @@
       "OriginalItemSpec": "wwwroot\\images\\belts\\goth2_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\ironskull_belt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\ironskull_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -226,7 +226,7 @@
       "OriginalItemSpec": "wwwroot\\images\\belts\\ironskull_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\metalagentbadge_belt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\metalagentbadge_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -245,7 +245,7 @@
       "OriginalItemSpec": "wwwroot\\images\\belts\\metalagentbadge_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\neonswirl_belt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\neonswirl_belt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -264,7 +264,7 @@
       "OriginalItemSpec": "wwwroot\\images\\belts\\neonswirl_belt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\spyguybelt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\spyguybelt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -283,7 +283,26 @@
       "OriginalItemSpec": "wwwroot\\images\\belts\\spyguybelt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\clownbubbles_glasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\yeehawcowboy_belt.webp",
+      "SourceId": "ShirtCompany",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
+      "BasePath": "_content/ShirtCompany",
+      "RelativePath": "images/belts/yeehawcowboy_belt.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\belts\\yeehawcowboy_belt.webp"
+    },
+    {
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\clownbubbles_glasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -302,7 +321,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\clownbubbles_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\clownstyle_glasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\clownstyle_glasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -321,7 +340,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\clownstyle_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\darkbat_glasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\darkbat_glasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -340,7 +359,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\darkbat_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\goth_glasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\goth_glasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -359,7 +378,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\goth_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\hipster_glasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\hipster_glasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -378,7 +397,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\hipster_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrspy_glasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrspy_glasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -397,7 +416,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\mrspy_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrtechnicalspyglasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrtechnicalspyglasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -416,7 +435,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\mrtechnicalspyglasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\neon_glasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\neon_glasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -435,7 +454,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\neon_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\punk1_glasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\punk1_glasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -454,7 +473,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\punk1_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\punk2_glasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\punk2_glasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -473,7 +492,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\punk2_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\theglow_glasses.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\theglow_glasses.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -492,7 +511,7 @@
       "OriginalItemSpec": "wwwroot\\images\\glasses\\theglow_glasses.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\candieshelper_hat.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\candieshelper_hat.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -511,7 +530,7 @@
       "OriginalItemSpec": "wwwroot\\images\\hats\\candieshelper_hat.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\catinthe_hat.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\catinthe_hat.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -530,7 +549,7 @@
       "OriginalItemSpec": "wwwroot\\images\\hats\\catinthe_hat.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\fnneon_hat.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\fnneon_hat.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -549,7 +568,7 @@
       "OriginalItemSpec": "wwwroot\\images\\hats\\fnneon_hat.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\metallicjester_hat.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\metallicjester_hat.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -568,7 +587,7 @@
       "OriginalItemSpec": "wwwroot\\images\\hats\\metallicjester_hat.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\mrcloud_hat.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\mrcloud_hat.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -587,7 +606,7 @@
       "OriginalItemSpec": "wwwroot\\images\\hats\\mrcloud_hat.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\mrgoth_hat.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\mrgoth_hat.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -606,7 +625,7 @@
       "OriginalItemSpec": "wwwroot\\images\\hats\\mrgoth_hat.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\nemostyle_hat.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\nemostyle_hat.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -625,7 +644,7 @@
       "OriginalItemSpec": "wwwroot\\images\\hats\\nemostyle_hat.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull1_hat.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull1_hat.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -644,7 +663,7 @@
       "OriginalItemSpec": "wwwroot\\images\\hats\\neonskull1_hat.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull2_hat.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull2_hat.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -663,7 +682,7 @@
       "OriginalItemSpec": "wwwroot\\images\\hats\\neonskull2_hat.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull3_hat.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull3_hat.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -682,7 +701,7 @@
       "OriginalItemSpec": "wwwroot\\images\\hats\\neonskull3_hat.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\anime_pants.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\anime_pants.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -701,7 +720,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pants\\anime_pants.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\animegirl_pants.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\animegirl_pants.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -720,7 +739,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pants\\animegirl_pants.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\Gold_Pants.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\Gold_Pants.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -739,7 +758,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pants\\Gold_Pants.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\goth_Pants.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\goth_Pants.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -758,7 +777,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pants\\goth_Pants.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\ils_Pants.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\ils_Pants.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -777,7 +796,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pants\\ils_Pants.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\mesohungry_Pants.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\mesohungry_Pants.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -796,7 +815,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pants\\mesohungry_Pants.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neon_Pants.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neon_Pants.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -815,7 +834,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pants\\neon_Pants.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neon2_Pants.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neon2_Pants.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -834,7 +853,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pants\\neon2_Pants.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neoncapri_pants.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neoncapri_pants.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -853,7 +872,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pants\\neoncapri_pants.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\Silver_Pants.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\Silver_Pants.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -872,7 +891,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pants\\Silver_Pants.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\bannerlogo.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\bannerlogo.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -891,7 +910,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\bannerlogo.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\BeltsDesignLogo.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\BeltsDesignLogo.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -910,7 +929,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\BeltsDesignLogo.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\BeltsDesignLogo2.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\BeltsDesignLogo2.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -929,7 +948,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\BeltsDesignLogo2.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\DesignerShirts.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\DesignerShirts.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -948,7 +967,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\DesignerShirts.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\DesignerShirts2.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\DesignerShirts2.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -967,7 +986,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\DesignerShirts2.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GlassesDesignLogo.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GlassesDesignLogo.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -986,7 +1005,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\GlassesDesignLogo.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GlassesDesignLogo2.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GlassesDesignLogo2.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1005,7 +1024,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\GlassesDesignLogo2.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GothStyleDesignLogo.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GothStyleDesignLogo.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1024,7 +1043,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\GothStyleDesignLogo.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\hatsDesignLogo.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\hatsDesignLogo.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1043,7 +1062,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\hatsDesignLogo.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1062,7 +1081,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\pantsDesignLogo.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo2.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo2.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1081,7 +1100,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\pantsDesignLogo2.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\ShoesDesignLogo.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\ShoesDesignLogo.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1100,7 +1119,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\ShoesDesignLogo.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\ShoesDesignLogo2.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\ShoesDesignLogo2.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1119,7 +1138,7 @@
       "OriginalItemSpec": "wwwroot\\images\\samples\\ShoesDesignLogo2.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\90s_shirt.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\90s_shirt.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1138,7 +1157,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shirts\\90s_shirt.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Clown_shirt.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Clown_shirt.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1157,7 +1176,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shirts\\Clown_shirt.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Doge_shirt.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Doge_shirt.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1176,7 +1195,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shirts\\Doge_shirt.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_Long1.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_Long1.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1195,7 +1214,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shirts\\Goth_Long1.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_Long2.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_Long2.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1214,7 +1233,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shirts\\Goth_Long2.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_shirt.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_shirt.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1233,7 +1252,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shirts\\Goth_shirt.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\greenskull_shirt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\greenskull_shirt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1252,7 +1271,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shirts\\greenskull_shirt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\jdepp_shirt.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\jdepp_shirt.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1271,7 +1290,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shirts\\jdepp_shirt.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\pizzacat_shirt.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\pizzacat_shirt.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1290,7 +1309,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shirts\\pizzacat_shirt.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\cloudy_shoes.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\cloudy_shoes.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1309,7 +1328,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes\\cloudy_shoes.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\cyber_shoes.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\cyber_shoes.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1328,7 +1347,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes\\cyber_shoes.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\dragon_shoes.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\dragon_shoes.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1347,7 +1366,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes\\dragon_shoes.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\fishy_shoes.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\fishy_shoes.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1366,7 +1385,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes\\fishy_shoes.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\fluffy_shoes.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\fluffy_shoes.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1385,7 +1404,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes\\fluffy_shoes.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\goth_shoes.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\goth_shoes.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1404,7 +1423,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes\\goth_shoes.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\gothsandle_shoes.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\gothsandle_shoes.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1423,7 +1442,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes\\gothsandle_shoes.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\hiddendragon_shoes.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\hiddendragon_shoes.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1442,7 +1461,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes\\hiddendragon_shoes.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\neongreenpunk_shoes.jpeg",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\neongreenpunk_shoes.jpeg",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1461,7 +1480,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes\\neongreenpunk_shoes.jpeg"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\nikeboost_shoes.webp",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\nikeboost_shoes.webp",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1480,7 +1499,7 @@
       "OriginalItemSpec": "wwwroot\\images\\shoes\\nikeboost_shoes.webp"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\js\\site.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1499,7 +1518,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1518,7 +1537,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1537,7 +1556,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1556,7 +1575,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1575,7 +1594,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1594,7 +1613,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1613,7 +1632,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1632,7 +1651,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1651,7 +1670,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1670,7 +1689,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1689,7 +1708,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1708,7 +1727,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1727,7 +1746,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1746,7 +1765,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1765,7 +1784,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1784,7 +1803,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1803,7 +1822,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1822,7 +1841,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1841,7 +1860,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1860,7 +1879,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1879,7 +1898,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1898,7 +1917,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1917,7 +1936,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1936,7 +1955,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1955,7 +1974,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1974,7 +1993,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -1993,7 +2012,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2012,7 +2031,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2031,7 +2050,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2050,7 +2069,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2069,7 +2088,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2088,7 +2107,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2107,7 +2126,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2126,7 +2145,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2145,7 +2164,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2164,7 +2183,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2183,7 +2202,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2202,7 +2221,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2221,7 +2240,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2240,7 +2259,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2259,7 +2278,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2278,7 +2297,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2297,7 +2316,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2316,7 +2335,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2335,7 +2354,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2354,7 +2373,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2373,7 +2392,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2392,7 +2411,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2411,7 +2430,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2430,7 +2449,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2449,7 +2468,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2468,7 +2487,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2487,7 +2506,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2506,7 +2525,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2525,7 +2544,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2544,7 +2563,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",
@@ -2563,7 +2582,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ShirtCompany",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\",

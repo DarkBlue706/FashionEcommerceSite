@@ -98,6 +98,25 @@ h2[b-qcm1t3udrg] {
     background-color: #007bb5;
 }
 /* _content/ShirtCompany/Views/Home/Index.cshtml.rz.scp.css */
+#home-banner[b-dzsxvbzpiv] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh; /* Full-screen height */
+    padding: 80px;
+}
+
+#home-banner h2[b-dzsxvbzpiv], #home-banner p[b-dzsxvbzpiv] {
+    margin: 10px 0;
+}
+
+h3[b-dzsxvbzpiv] {
+    text-align: center;
+}
+
+
 /* _content/ShirtCompany/Views/Home/Login.cshtml.rz.scp.css */
 /* Dark gray background for the entire form container */
 .form-container[b-zhuutouqd5] {
@@ -255,234 +274,360 @@ label[b-kehex0p0jl] {
 .text-danger[b-kehex0p0jl] {
     color: #ff6b6b; /* Light red for error messages */
 }
+/* _content/ShirtCompany/Views/Home/SuccessfulRegister.cshtml.rz.scp.css */
 /* _content/ShirtCompany/Views/Products/Belts.cshtml.rz.scp.css */
-/* _content/ShirtCompany/Views/Products/Glasses.cshtml.rz.scp.css */
-/* _content/ShirtCompany/Views/Products/Hats.cshtml.rz.scp.css */
-.glyphicon[b-ut6dlh3iiz] { margin-right:5px; }
-.thumbnail[b-ut6dlh3iiz]
-{
-    margin-bottom: 20px;
-    padding: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+.product-list[b-isngs87j2h] {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: space-between; /* Add space between product items */
+    gap: 20px; /* Control spacing between products */
+    margin: 20px auto;
+    max-width: 1700px; /* Adjust overall width */
 }
 
-.item.list-group-item[b-ut6dlh3iiz]
-{
-    float: none;
-    width: 100%;
-    background-color: #fff;
+.product-item[b-isngs87j2h] {
+    flex: 1 1 calc(33.333% - 40px); /* 3 items per row, accounting for gaps */
+    max-width: 550px; /* Maintain the original width constraint */
+    padding: 10px;
+    margin: 10px 0; /* Adjust margin to avoid excessive spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product-item img[b-isngs87j2h] {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height proportionally */
+    max-height: 300px; /* Limit height to maintain consistency */
     margin-bottom: 10px;
-}
-.item.list-group-item:nth-of-type(odd):hover[b-ut6dlh3iiz],.item.list-group-item:hover[b-ut6dlh3iiz]
-{
-    background: #428bca;
+    display: block; /* Prevent inline spacing issues */
 }
 
-.item.list-group-item .list-group-image[b-ut6dlh3iiz]
-{
-    margin-right: 10px;
-}
-.item.list-group-item .thumbnail[b-ut6dlh3iiz]
-{
-    margin-bottom: 0px;
-}
-.item.list-group-item .caption[b-ut6dlh3iiz]
-{
-    padding: 9px 9px 0px 9px;
-}
-.item.list-group-item:nth-of-type(odd)[b-ut6dlh3iiz]
-{
-    background: #eeeeee;
+.product-item h4[b-isngs87j2h] {
+    font-size: 1rem;
+    margin: 5px 0;
 }
 
-.item.list-group-item[b-ut6dlh3iiz]:before, .item.list-group-item[b-ut6dlh3iiz]:after
-{
-    display: table;
-    content: " ";
+.product-item p[b-isngs87j2h] {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #555;
 }
 
-.item.list-group-item img[b-ut6dlh3iiz]
-{
-    float: left;
+.product-item form[b-isngs87j2h] {
+    margin-top: 10px;
 }
-.item.list-group-item[b-ut6dlh3iiz]:after
-{
-    clear: both;
+
+.product-item input[type="number"][b-isngs87j2h] {
+    width: 60px;
+    margin-right: 5px;
+    display: inline-block;
 }
-.list-group-item-text[b-ut6dlh3iiz]
-{
-    margin: 0 0 11px;
+
+.product-item button[b-isngs87j2h] {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+h3[b-isngs87j2h] {
+    text-align: center;
+}
+/* _content/ShirtCompany/Views/Products/Glasses.cshtml.rz.scp.css */
+.product-list[b-a524z34shy] {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: space-between; /* Add space between product items */
+    gap: 20px; /* Control spacing between products */
+    margin: 20px auto;
+    max-width: 1700px; /* Adjust overall width */
+}
+
+.product-item[b-a524z34shy] {
+    flex: 1 1 calc(33.333% - 40px); /* 3 items per row, accounting for gaps */
+    max-width: 550px; /* Maintain the original width constraint */
+    padding: 10px;
+    margin: 10px 0; /* Adjust margin to avoid excessive spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product-item img[b-a524z34shy] {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height proportionally */
+    max-height: 300px; /* Limit height to maintain consistency */
+    margin-bottom: 10px;
+    display: block; /* Prevent inline spacing issues */
+}
+
+.product-item h4[b-a524z34shy] {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.product-item p[b-a524z34shy] {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.product-item form[b-a524z34shy] {
+    margin-top: 10px;
+}
+
+.product-item input[type="number"][b-a524z34shy] {
+    width: 60px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.product-item button[b-a524z34shy] {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+h3[b-a524z34shy] {
+    text-align: center;
+}
+/* _content/ShirtCompany/Views/Products/Hats.cshtml.rz.scp.css */
+.product-list[b-ut6dlh3iiz] {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: space-between; /* Add space between product items */
+    gap: 20px; /* Control spacing between products */
+    margin: 20px auto;
+    max-width: 1700px; /* Adjust overall width */
+}
+
+.product-item[b-ut6dlh3iiz] {
+    flex: 1 1 calc(33.333% - 40px); /* 3 items per row, accounting for gaps */
+    max-width: 550px; /* Maintain the original width constraint */
+    padding: 10px;
+    margin: 10px 0; /* Adjust margin to avoid excessive spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product-item img[b-ut6dlh3iiz] {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height proportionally */
+    max-height: 300px; /* Limit height to maintain consistency */
+    margin-bottom: 10px;
+    display: block; /* Prevent inline spacing issues */
+}
+
+.product-item h4[b-ut6dlh3iiz] {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.product-item p[b-ut6dlh3iiz] {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.product-item form[b-ut6dlh3iiz] {
+    margin-top: 10px;
+}
+
+.product-item input[type="number"][b-ut6dlh3iiz] {
+    width: 60px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.product-item button[b-ut6dlh3iiz] {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+h3[b-ut6dlh3iiz] {
+    text-align: center;
 }
 /* _content/ShirtCompany/Views/Products/Pants.cshtml.rz.scp.css */
-.glyphicon[b-ja4q0fl37v] { margin-right:5px; }
-.thumbnail[b-ja4q0fl37v]
-{
-    margin-bottom: 20px;
-    padding: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+.product-list[b-ja4q0fl37v] {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: space-between; /* Add space between product items */
+    gap: 20px; /* Control spacing between products */
+    margin: 20px auto;
+    max-width: 1700px; /* Adjust overall width */
 }
 
-.item.list-group-item[b-ja4q0fl37v]
-{
-    float: none;
-    width: 100%;
-    background-color: #fff;
+.product-item[b-ja4q0fl37v] {
+    flex: 1 1 calc(33.333% - 40px); /* 3 items per row, accounting for gaps */
+    max-width: 550px; /* Maintain the original width constraint */
+    padding: 10px;
+    margin: 10px 0; /* Adjust margin to avoid excessive spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product-item img[b-ja4q0fl37v] {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height proportionally */
+    max-height: 300px; /* Limit height to maintain consistency */
     margin-bottom: 10px;
-}
-.item.list-group-item:nth-of-type(odd):hover[b-ja4q0fl37v],.item.list-group-item:hover[b-ja4q0fl37v]
-{
-    background: #428bca;
+    display: block; /* Prevent inline spacing issues */
 }
 
-.item.list-group-item .list-group-image[b-ja4q0fl37v]
-{
-    margin-right: 10px;
-}
-.item.list-group-item .thumbnail[b-ja4q0fl37v]
-{
-    margin-bottom: 0px;
-}
-.item.list-group-item .caption[b-ja4q0fl37v]
-{
-    padding: 9px 9px 0px 9px;
-}
-.item.list-group-item:nth-of-type(odd)[b-ja4q0fl37v]
-{
-    background: #eeeeee;
+.product-item h4[b-ja4q0fl37v] {
+    font-size: 1rem;
+    margin: 5px 0;
 }
 
-.item.list-group-item[b-ja4q0fl37v]:before, .item.list-group-item[b-ja4q0fl37v]:after
-{
-    display: table;
-    content: " ";
+.product-item p[b-ja4q0fl37v] {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #555;
 }
 
-.item.list-group-item img[b-ja4q0fl37v]
-{
-    float: left;
+.product-item form[b-ja4q0fl37v] {
+    margin-top: 10px;
 }
-.item.list-group-item[b-ja4q0fl37v]:after
-{
-    clear: both;
+
+.product-item input[type="number"][b-ja4q0fl37v] {
+    width: 60px;
+    margin-right: 5px;
+    display: inline-block;
 }
-.list-group-item-text[b-ja4q0fl37v]
-{
-    margin: 0 0 11px;
+
+.product-item button[b-ja4q0fl37v] {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+h3[b-ja4q0fl37v] {
+    text-align: center;
 }
 /* _content/ShirtCompany/Views/Products/Shirts.cshtml.rz.scp.css */
-.glyphicon[b-83x4fbzd5v] {
-    margin-right: 5px;
+.product-list[b-83x4fbzd5v] {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: space-between; /* Add space between product items */
+    gap: 20px; /* Control spacing between products */
+    margin: 20px auto;
+    max-width: 1700px; /* Adjust overall width */
 }
 
-.thumbnail[b-83x4fbzd5v] {
-    margin-bottom: 20px;
-    padding: 0;
-    border-radius: 0;
+.product-item[b-83x4fbzd5v] {
+    flex: 1 1 calc(33.333% - 40px); /* 3 items per row, accounting for gaps */
+    max-width: 550px; /* Maintain the original width constraint */
+    padding: 10px;
+    margin: 10px 0; /* Adjust margin to avoid excessive spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
 }
 
-.item.list-group-item[b-83x4fbzd5v] {
-    float: none;
-    width: 100%;
-    background-color: #fff;
+.product-item img[b-83x4fbzd5v] {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height proportionally */
+    max-height: 300px; /* Limit height to maintain consistency */
     margin-bottom: 10px;
+    display: block; /* Prevent inline spacing issues */
 }
 
-.item.list-group-item:nth-of-type(odd):hover[b-83x4fbzd5v],
-.item.list-group-item:hover[b-83x4fbzd5v] {
-    background: #428bca;
+.product-item h4[b-83x4fbzd5v] {
+    font-size: 1rem;
+    margin: 5px 0;
 }
 
-.item.list-group-item .list-group-image[b-83x4fbzd5v] {
-    margin-right: 10px;
+.product-item p[b-83x4fbzd5v] {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #555;
 }
 
-.item.list-group-item .thumbnail[b-83x4fbzd5v] {
-    margin-bottom: 0;
+.product-item form[b-83x4fbzd5v] {
+    margin-top: 10px;
 }
 
-.item.list-group-item .caption[b-83x4fbzd5v] {
-    padding: 9px 9px 0 9px;
+.product-item input[type="number"][b-83x4fbzd5v] {
+    width: 60px;
+    margin-right: 5px;
+    display: inline-block;
 }
 
-.item.list-group-item:nth-of-type(odd)[b-83x4fbzd5v] {
-    background: #eeeeee;
+.product-item button[b-83x4fbzd5v] {
+    padding: 5px 10px;
+    font-size: 0.9rem;
 }
 
-.item.list-group-item img[b-83x4fbzd5v] {
-    float: left;
-    max-width: 100%;   /* Ensures the image scales down */
-    height: auto;      /* Ensures the image scales proportionally */
-}
-
-.product-list .thumbnail img[b-83x4fbzd5v] {
-    width: 100%;        /* Ensures the image takes full width of the container */
-    max-width: 400px;    /* Sets a maximum width of 400px */
-    max-height: 250px;   /* Sets a maximum height of 250px */
-    object-fit: cover;   /* Ensures the image fits within the specified dimensions */
-    display: block;      /* Ensures the image behaves as a block element */
-    margin: 0 auto;      /* Centers the image horizontally */
+h3[b-83x4fbzd5v] {
+    text-align: center;
 }
 /* _content/ShirtCompany/Views/Products/Shoes.cshtml.rz.scp.css */
-.glyphicon[b-hf3fq2er7a] { margin-right:5px; }
-.thumbnail[b-hf3fq2er7a]
-{
-    margin-bottom: 20px;
-    padding: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+.product-list[b-hf3fq2er7a] {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: space-between; /* Add space between product items */
+    gap: 20px; /* Control spacing between products */
+    margin: 20px auto;
+    max-width: 1700px; /* Adjust overall width */
 }
 
-.item.list-group-item[b-hf3fq2er7a]
-{
-    float: none;
-    width: 100%;
-    background-color: #fff;
+.product-item[b-hf3fq2er7a] {
+    flex: 1 1 calc(33.333% - 40px); /* 3 items per row, accounting for gaps */
+    max-width: 550px; /* Maintain the original width constraint */
+    padding: 10px;
+    margin: 10px 0; /* Adjust margin to avoid excessive spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product-item img[b-hf3fq2er7a] {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height proportionally */
+    max-height: 300px; /* Limit height to maintain consistency */
     margin-bottom: 10px;
-}
-.item.list-group-item:nth-of-type(odd):hover[b-hf3fq2er7a],.item.list-group-item:hover[b-hf3fq2er7a]
-{
-    background: #428bca;
+    display: block; /* Prevent inline spacing issues */
 }
 
-.item.list-group-item .list-group-image[b-hf3fq2er7a]
-{
-    margin-right: 10px;
-}
-.item.list-group-item .thumbnail[b-hf3fq2er7a]
-{
-    margin-bottom: 0px;
-}
-.item.list-group-item .caption[b-hf3fq2er7a]
-{
-    padding: 9px 9px 0px 9px;
-}
-.item.list-group-item:nth-of-type(odd)[b-hf3fq2er7a]
-{
-    background: #eeeeee;
+.product-item h4[b-hf3fq2er7a] {
+    font-size: 1rem;
+    margin: 5px 0;
 }
 
-.item.list-group-item[b-hf3fq2er7a]:before, .item.list-group-item[b-hf3fq2er7a]:after
-{
-    display: table;
-    content: " ";
+.product-item p[b-hf3fq2er7a] {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #555;
 }
 
-.item.list-group-item img[b-hf3fq2er7a]
-{
-    float: left;
+.product-item form[b-hf3fq2er7a] {
+    margin-top: 10px;
 }
-.item.list-group-item[b-hf3fq2er7a]:after
-{
-    clear: both;
+
+.product-item input[type="number"][b-hf3fq2er7a] {
+    width: 60px;
+    margin-right: 5px;
+    display: inline-block;
 }
-.list-group-item-text[b-hf3fq2er7a]
-{
-    margin: 0 0 11px;
+
+.product-item button[b-hf3fq2er7a] {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+h3[b-hf3fq2er7a] {
+    text-align: center;
 }
 /* _content/ShirtCompany/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification

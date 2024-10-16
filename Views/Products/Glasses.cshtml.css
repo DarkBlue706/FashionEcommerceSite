@@ -1,0 +1,58 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: space-between; /* Add space between product items */
+    gap: 20px; /* Control spacing between products */
+    margin: 20px auto;
+    max-width: 1700px; /* Adjust overall width */
+}
+
+.product-item {
+    flex: 1 1 calc(33.333% - 40px); /* 3 items per row, accounting for gaps */
+    max-width: 550px; /* Maintain the original width constraint */
+    padding: 10px;
+    margin: 10px 0; /* Adjust margin to avoid excessive spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product-item img {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height proportionally */
+    max-height: 300px; /* Limit height to maintain consistency */
+    margin-bottom: 10px;
+    display: block; /* Prevent inline spacing issues */
+}
+
+.product-item h4 {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.product-item p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.product-item form {
+    margin-top: 10px;
+}
+
+.product-item input[type="number"] {
+    width: 60px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.product-item button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+h3 {
+    text-align: center;
+}
