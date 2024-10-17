@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj": {}
+    "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj": {
+    "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj",
+        "projectUniqueName": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj",
         "projectName": "ShirtCompany",
-        "projectPath": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj",
+        "projectPath": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj",
         "packagesPath": "C:\\Users\\cthom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\",
+        "outputPath": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cthom\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,6 +69,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
             }
           },
           "imports": [

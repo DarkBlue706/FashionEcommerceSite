@@ -1,543 +1,543 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShirtCompany.bundle.scp.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShirtCompany.bundle.scp.css",
       "PackagePath": "staticwebassets\\ShirtCompany.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\css\\site.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\favicon.ico",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\agent007_belt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\agent007_belt.jpeg",
       "PackagePath": "staticwebassets\\images\\belts\\agent007_belt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\asian_nativeamerican_belt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\asian_nativeamerican_belt.jpeg",
       "PackagePath": "staticwebassets\\images\\belts\\asian_nativeamerican_belt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\clownstyle_belt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\clownstyle_belt.jpeg",
       "PackagePath": "staticwebassets\\images\\belts\\clownstyle_belt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\cyber_belt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\cyber_belt.jpeg",
       "PackagePath": "staticwebassets\\images\\belts\\cyber_belt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth1_belt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth1_belt.jpeg",
       "PackagePath": "staticwebassets\\images\\belts\\goth1_belt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth2_belt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\goth2_belt.jpeg",
       "PackagePath": "staticwebassets\\images\\belts\\goth2_belt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\ironskull_belt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\ironskull_belt.jpeg",
       "PackagePath": "staticwebassets\\images\\belts\\ironskull_belt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\metalagentbadge_belt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\metalagentbadge_belt.jpeg",
       "PackagePath": "staticwebassets\\images\\belts\\metalagentbadge_belt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\neonswirl_belt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\neonswirl_belt.jpeg",
       "PackagePath": "staticwebassets\\images\\belts\\neonswirl_belt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\spyguybelt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\spyguybelt.jpeg",
       "PackagePath": "staticwebassets\\images\\belts\\spyguybelt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\yeehawcowboy_belt.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\belts\\yeehawcowboy_belt.webp",
       "PackagePath": "staticwebassets\\images\\belts\\yeehawcowboy_belt.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\clownbubbles_glasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\clownbubbles_glasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\clownbubbles_glasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\clownstyle_glasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\clownstyle_glasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\clownstyle_glasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\darkbat_glasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\darkbat_glasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\darkbat_glasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\goth_glasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\goth_glasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\goth_glasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\hipster_glasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\hipster_glasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\hipster_glasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrspy_glasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrspy_glasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\mrspy_glasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrtechnicalspyglasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\mrtechnicalspyglasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\mrtechnicalspyglasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\neon_glasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\neon_glasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\neon_glasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\punk1_glasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\punk1_glasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\punk1_glasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\punk2_glasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\punk2_glasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\punk2_glasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\theglow_glasses.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\glasses\\theglow_glasses.jpeg",
       "PackagePath": "staticwebassets\\images\\glasses\\theglow_glasses.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\candieshelper_hat.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\candieshelper_hat.webp",
       "PackagePath": "staticwebassets\\images\\hats\\candieshelper_hat.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\catinthe_hat.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\catinthe_hat.webp",
       "PackagePath": "staticwebassets\\images\\hats\\catinthe_hat.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\fnneon_hat.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\fnneon_hat.webp",
       "PackagePath": "staticwebassets\\images\\hats\\fnneon_hat.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\metallicjester_hat.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\metallicjester_hat.webp",
       "PackagePath": "staticwebassets\\images\\hats\\metallicjester_hat.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\mrcloud_hat.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\mrcloud_hat.webp",
       "PackagePath": "staticwebassets\\images\\hats\\mrcloud_hat.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\mrgoth_hat.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\mrgoth_hat.webp",
       "PackagePath": "staticwebassets\\images\\hats\\mrgoth_hat.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\nemostyle_hat.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\nemostyle_hat.webp",
       "PackagePath": "staticwebassets\\images\\hats\\nemostyle_hat.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull1_hat.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull1_hat.jpeg",
       "PackagePath": "staticwebassets\\images\\hats\\neonskull1_hat.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull2_hat.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull2_hat.jpeg",
       "PackagePath": "staticwebassets\\images\\hats\\neonskull2_hat.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull3_hat.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\hats\\neonskull3_hat.jpeg",
       "PackagePath": "staticwebassets\\images\\hats\\neonskull3_hat.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\Gold_Pants.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\Gold_Pants.webp",
       "PackagePath": "staticwebassets\\images\\pants\\Gold_Pants.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\Silver_Pants.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\Silver_Pants.webp",
       "PackagePath": "staticwebassets\\images\\pants\\Silver_Pants.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\anime_pants.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\anime_pants.jpeg",
       "PackagePath": "staticwebassets\\images\\pants\\anime_pants.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\animegirl_pants.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\animegirl_pants.jpeg",
       "PackagePath": "staticwebassets\\images\\pants\\animegirl_pants.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\goth_Pants.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\goth_Pants.webp",
       "PackagePath": "staticwebassets\\images\\pants\\goth_Pants.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\ils_Pants.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\ils_Pants.webp",
       "PackagePath": "staticwebassets\\images\\pants\\ils_Pants.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\mesohungry_Pants.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\mesohungry_Pants.webp",
       "PackagePath": "staticwebassets\\images\\pants\\mesohungry_Pants.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neon2_Pants.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neon2_Pants.webp",
       "PackagePath": "staticwebassets\\images\\pants\\neon2_Pants.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neon_Pants.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neon_Pants.webp",
       "PackagePath": "staticwebassets\\images\\pants\\neon_Pants.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neoncapri_pants.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\pants\\neoncapri_pants.jpeg",
       "PackagePath": "staticwebassets\\images\\pants\\neoncapri_pants.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\BeltsDesignLogo.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\BeltsDesignLogo.webp",
       "PackagePath": "staticwebassets\\images\\samples\\BeltsDesignLogo.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\BeltsDesignLogo2.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\BeltsDesignLogo2.webp",
       "PackagePath": "staticwebassets\\images\\samples\\BeltsDesignLogo2.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\DesignerShirts.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\DesignerShirts.jpeg",
       "PackagePath": "staticwebassets\\images\\samples\\DesignerShirts.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\DesignerShirts2.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\DesignerShirts2.jpeg",
       "PackagePath": "staticwebassets\\images\\samples\\DesignerShirts2.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GlassesDesignLogo.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GlassesDesignLogo.webp",
       "PackagePath": "staticwebassets\\images\\samples\\GlassesDesignLogo.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GlassesDesignLogo2.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GlassesDesignLogo2.webp",
       "PackagePath": "staticwebassets\\images\\samples\\GlassesDesignLogo2.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GothStyleDesignLogo.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\GothStyleDesignLogo.jpeg",
       "PackagePath": "staticwebassets\\images\\samples\\GothStyleDesignLogo.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\ShoesDesignLogo.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\ShoesDesignLogo.jpeg",
       "PackagePath": "staticwebassets\\images\\samples\\ShoesDesignLogo.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\ShoesDesignLogo2.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\ShoesDesignLogo2.webp",
       "PackagePath": "staticwebassets\\images\\samples\\ShoesDesignLogo2.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\bannerlogo.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\bannerlogo.webp",
       "PackagePath": "staticwebassets\\images\\samples\\bannerlogo.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\hatsDesignLogo.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\hatsDesignLogo.webp",
       "PackagePath": "staticwebassets\\images\\samples\\hatsDesignLogo.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo.jpeg",
       "PackagePath": "staticwebassets\\images\\samples\\pantsDesignLogo.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo2.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\pantsDesignLogo2.webp",
       "PackagePath": "staticwebassets\\images\\samples\\pantsDesignLogo2.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\90s_shirt.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\90s_shirt.webp",
       "PackagePath": "staticwebassets\\images\\shirts\\90s_shirt.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Clown_shirt.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Clown_shirt.webp",
       "PackagePath": "staticwebassets\\images\\shirts\\Clown_shirt.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Doge_shirt.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Doge_shirt.webp",
       "PackagePath": "staticwebassets\\images\\shirts\\Doge_shirt.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_Long1.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_Long1.webp",
       "PackagePath": "staticwebassets\\images\\shirts\\Goth_Long1.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_Long2.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_Long2.webp",
       "PackagePath": "staticwebassets\\images\\shirts\\Goth_Long2.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_shirt.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\Goth_shirt.webp",
       "PackagePath": "staticwebassets\\images\\shirts\\Goth_shirt.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\greenskull_shirt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\greenskull_shirt.jpeg",
       "PackagePath": "staticwebassets\\images\\shirts\\greenskull_shirt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\jdepp_shirt.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\jdepp_shirt.webp",
       "PackagePath": "staticwebassets\\images\\shirts\\jdepp_shirt.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\pizzacat_shirt.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\pizzacat_shirt.jpeg",
       "PackagePath": "staticwebassets\\images\\shirts\\pizzacat_shirt.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\cloudy_shoes.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\cloudy_shoes.webp",
       "PackagePath": "staticwebassets\\images\\shoes\\cloudy_shoes.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\cyber_shoes.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\cyber_shoes.webp",
       "PackagePath": "staticwebassets\\images\\shoes\\cyber_shoes.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\dragon_shoes.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\dragon_shoes.webp",
       "PackagePath": "staticwebassets\\images\\shoes\\dragon_shoes.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\fishy_shoes.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\fishy_shoes.webp",
       "PackagePath": "staticwebassets\\images\\shoes\\fishy_shoes.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\fluffy_shoes.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\fluffy_shoes.webp",
       "PackagePath": "staticwebassets\\images\\shoes\\fluffy_shoes.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\goth_shoes.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\goth_shoes.webp",
       "PackagePath": "staticwebassets\\images\\shoes\\goth_shoes.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\gothsandle_shoes.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\gothsandle_shoes.webp",
       "PackagePath": "staticwebassets\\images\\shoes\\gothsandle_shoes.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\hiddendragon_shoes.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\hiddendragon_shoes.webp",
       "PackagePath": "staticwebassets\\images\\shoes\\hiddendragon_shoes.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\neongreenpunk_shoes.jpeg",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\neongreenpunk_shoes.jpeg",
       "PackagePath": "staticwebassets\\images\\shoes\\neongreenpunk_shoes.jpeg"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\nikeboost_shoes.webp",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shoes\\nikeboost_shoes.webp",
       "PackagePath": "staticwebassets\\images\\shoes\\nikeboost_shoes.webp"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\js\\site.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
