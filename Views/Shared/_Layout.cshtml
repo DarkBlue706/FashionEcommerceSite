@@ -10,11 +10,11 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FashionCompany</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" 
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
@@ -22,16 +22,15 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                          <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Register">Register</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
                         </li>
-
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="categoriesDropdown" role="button" 
+                               data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                             <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Products" asp-action="Shirts">Shirts</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Products" asp-action="Pants">Pants</a></li>
@@ -41,7 +40,6 @@
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Products" asp-action="Glasses">Glasses</a></li>
                             </ul>
                         </li>                        
-                        
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
@@ -49,18 +47,18 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Cart" asp-action="Index">Cart</a>
                         </li>
                     </ul>
-                    
 
-                <form class="d-flex" asp-controller="Home" asp-action="Search" method="get">
-                    <input class="form-control me-2" type="search" name="query" placeholder="Search by category" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-
+                    <form class="d-flex" asp-controller="Home" asp-action="Search" method="get">
+                        <input class="form-control me-2" type="search" name="query" placeholder="Search by category" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+
+    <!-- Add margin to avoid overlapping content -->
+    <div class="container" style="margin-top: 70px;">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -71,6 +69,7 @@
             &copy; 2024 - FashionECommerce - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
