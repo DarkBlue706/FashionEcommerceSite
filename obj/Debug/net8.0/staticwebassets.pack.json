@@ -233,6 +233,34 @@
       "PackagePath": "staticwebassets\\images\\samples\\pantsDesignLogo2.webp"
     },
     {
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\product_catergories_belts.webp",
+      "PackagePath": "staticwebassets\\images\\samples\\product_catergories_belts.webp"
+    },
+    {
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\product_catergories_glasses.jpeg",
+      "PackagePath": "staticwebassets\\images\\samples\\product_catergories_glasses.jpeg"
+    },
+    {
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\product_catergories_hats.jpeg",
+      "PackagePath": "staticwebassets\\images\\samples\\product_catergories_hats.jpeg"
+    },
+    {
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\product_catergories_pants.jpeg",
+      "PackagePath": "staticwebassets\\images\\samples\\product_catergories_pants.jpeg"
+    },
+    {
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\product_catergories_shirts.jpeg",
+      "PackagePath": "staticwebassets\\images\\samples\\product_catergories_shirts.jpeg"
+    },
+    {
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\product_catergories_shoes.jpeg",
+      "PackagePath": "staticwebassets\\images\\samples\\product_catergories_shoes.jpeg"
+    },
+    {
+      "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\samples\\toptiercatbanner.webp",
+      "PackagePath": "staticwebassets\\images\\samples\\toptiercatbanner.webp"
+    },
+    {
       "Id": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\wwwroot\\images\\shirts\\90s_shirt.webp",
       "PackagePath": "staticwebassets\\images\\shirts\\90s_shirt.webp"
     },

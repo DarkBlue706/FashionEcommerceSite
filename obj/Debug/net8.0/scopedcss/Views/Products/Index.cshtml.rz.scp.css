@@ -1,0 +1,77 @@
+/* Reset box-sizing */
+*[b-cdm2x5p2b9] {
+    box-sizing: border-box;
+}
+
+body[b-cdm2x5p2b9] {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header styling */
+.page-title[b-cdm2x5p2b9] {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.note[b-cdm2x5p2b9] {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Container for all content */
+.container[b-cdm2x5p2b9] {
+    max-width: 3500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Row layout with space between items */
+.row[b-cdm2x5p2b9] {
+    display: flex;
+    justify-content: space-between; /* Distributes columns with space between them */
+    gap: 15px; /* Adds gap between columns */
+    margin-bottom: 20px;
+}
+
+/* Column styling */
+.column[b-cdm2x5p2b9] {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 500px;
+    text-align: center;
+    overflow: hidden; /* Prevent content from overflowing */
+    transition: transform 0.3s;
+}
+
+.column:hover[b-cdm2x5p2b9] {
+    transform: scale(1.05); /* Adds a zoom effect on hover */
+}
+
+/* Ensures the category images stay inside the columns */
+.category-image[b-cdm2x5p2b9] {
+    max-width: 100%; /* Image won't exceed the column width */
+    max-height: 150px; /* Controls the height */
+    object-fit: contain; /* Ensures the entire image fits within the container */
+    margin-bottom: 10px;
+    border-radius: 10%; /* Optional rounded corners */
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+    .row[b-cdm2x5p2b9] {
+        flex-direction: column;
+    }
+}

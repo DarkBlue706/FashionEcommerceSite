@@ -1,33 +1,67 @@
-
-
 @{
-    ViewData["Title"] = "Catergories";
-    Layout = "_Layout";
+    ViewData["Title"] = "CSS Template";
 }
 
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"]</title>
 
-        <h3>Catergories</h3>
-        <br />
-        <ul>
-            <li>
-                <a href="/Products/Shirts">Shirts</a>
-            </li>
-            <li>
-                <a href="/Products/Pants">Pants</a>
-            </li>
-            <li>
-                <a href="/Products/Hats">Hats</a>
-            </li>
-            <li>
-                <a href="/Products/Shoes">Shoes</a>
-            </li>
-            <li>
-                <a href="/Products/Glasses">Glasses</a>
-            </li>
-            <li>
-                <a href="/Products/Belts">Belts</a>
-            </li>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
 
-        </ul>    
+<body>
+    <h3 class="page-title">Categories</h3>
+    <p class="note">
+        <strong>Note:</strong> New selections on the way, vendors reach out to add products.
+    </p>
 
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <a href="/Products/Shirts">
+                    <img src="~/images/samples/product_catergories_shirts.jpeg" alt="Shirts" class="category-image">
+                    <p>Shirts</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="/Products/Pants">
+                    <img src="~/images/samples/product_catergories_pants.jpeg" alt="Pants" class="category-image">
+                    <p>Pants</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="/Products/Hats">
+                    <img src="~/images/samples/product_catergories_hats.jpeg" alt="Hats" class="category-image">
+                    <p>Hats</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <a href="/Products/Shoes">
+                    <img src="~/images/samples/product_catergories_shoes.jpeg" alt="Shoes" class="category-image">
+                    <p>Shoes</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="/Products/Glasses">
+                    <img src="~/images/samples/product_catergories_glasses.jpeg" alt="Glasses" class="category-image">
+                    <p>Glasses</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="/Products/Belts">
+                    <img src="~/images/samples/product_catergories_belts.webp" alt="Belts" class="category-image">
+                    <p>Belts</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

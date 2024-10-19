@@ -284,3 +284,4 @@ C:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Vi
 c:\Users\cthom\dotnet-course-code\ECommerceFashion\bin\Debug\net8.0\Newtonsoft.Json.dll
 c:\Users\cthom\dotnet-course-code\ECommerceFashion\bin\Debug\net8.0\SendGrid.dll
 c:\Users\cthom\dotnet-course-code\ECommerceFashion\bin\Debug\net8.0\StarkbankEcdsa.dll
+c:\Users\cthom\dotnet-course-code\ECommerceFashion\obj\Debug\net8.0\scopedcss\Views\Products\Index.cshtml.rz.scp.css
