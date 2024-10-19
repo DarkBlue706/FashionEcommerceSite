@@ -90,7 +90,7 @@ public class HomeController : Controller
         return View(shoes);
     }
 
-        public async Task<IActionResult> Belts()
+    public async Task<IActionResult> Belts()
     {
         // Fetch all products where Category is "Shoes"
         var shoes = await _productContext.Product
@@ -101,7 +101,7 @@ public class HomeController : Controller
         return View(shoes);
     }
 
-        public async Task<IActionResult> Glasses()
+    public async Task<IActionResult> Glasses()
     {
         // Fetch all products where Category is "Shoes"
         var shoes = await _productContext.Product

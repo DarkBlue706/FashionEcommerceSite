@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ShirtCompany.Models; // Ensure this namespace includes your Product model and ProductDBContext
+using ShirtCompany.Models;
 
 
 namespace ShirtCompany.Controllers

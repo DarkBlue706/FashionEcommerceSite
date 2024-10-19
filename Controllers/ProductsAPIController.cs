@@ -20,6 +20,7 @@ namespace ShirtCompany.Controllers
         // GET: api/shirts
         // Pull all shirts ordered by creation date
         [HttpGet]
+        
         public async Task<IActionResult> GetProducts()
         {
             try
@@ -59,6 +60,7 @@ namespace ShirtCompany.Controllers
         // POST: api/shirts
         // Create a new shirt
         [HttpPost]
+        [ValidateAntiForgeryToken]
         [Product_ValidateCreateProductFilter]
         public async Task<IActionResult> CreateProduct([FromBody] Product product)
         {

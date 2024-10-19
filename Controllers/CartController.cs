@@ -25,6 +25,7 @@ namespace ShirtCompany.Controllers
 
         [ServiceFilter(typeof(Product_ValidateProductPriceFilter))]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddToCart(int productId, int quantity)
         {
             var product = await _productContext.Product.FindAsync(productId);
@@ -46,6 +47,7 @@ namespace ShirtCompany.Controllers
             return RedirectToAction("Index");
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdateCartItem(int productId, int quantity)
         {
             if (quantity < 1)
