@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj": {}
+    "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj": {}
   },
   "projects": {
-    "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj": {
+    "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj",
+        "projectUniqueName": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj",
         "projectName": "ShirtCompany",
-        "projectPath": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj",
+        "projectPath": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\ShirtCompany.csproj",
         "packagesPath": "C:\\Users\\cthom\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\",
+        "outputPath": "C:\\Users\\cthom\\dotnet-course-code\\ECommerceFashion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cthom\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[8.0.10, )"
             },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -66,6 +70,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "SendGrid": {
               "target": "Package",

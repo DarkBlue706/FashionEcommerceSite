@@ -1,44 +1,54 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ShirtCompany.Models;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace ShirtCompany.Controllers
 {
+    [Authorize]
     public class UsersController : Controller
     {
         private readonly UserDBContext _userContext;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        // Constructor to inject UserDBContext
-        public UsersController(UserDBContext userContext)
+        public UsersController(UserDBContext userContext, UserManager<ApplicationUser> userManager)
         {
             _userContext = userContext;
+            _userManager = userManager;
         }
 
-        // GET: Users/Create - Display the form to create a new user
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Users/Create - Handle the form submission for a new user
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(UserModel user)
+        public async Task<IActionResult> Create(ApplicationUser user, string password)
         {
             if (ModelState.IsValid)
             {
-                _userContext.Users.Add(user);
-                await _userContext.SaveChangesAsync();
-                return RedirectToAction("Index", "Home"); // Redirect to a relevant page after adding the user
+                var result = await _userManager.CreateAsync(user, password);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
             }
-            return View(user); // If model validation fails, return the form with errors
+            return View(user);
         }
 
-        // // Optionally: List all users (for testing or admin purposes)
-        // public async Task<IActionResult> Index()
-        // {
-        //     var users = await _userContext.Users.ToListAsync();
-        //     return View(users);
-        // }
+        // List all registered users (for admin purposes)
+        public async Task<IActionResult> Index()
+        {
+            var users = await _userManager.Users.ToListAsync();
+            return View(users);
+        }
     }
 }

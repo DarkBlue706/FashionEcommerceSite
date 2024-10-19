@@ -27,6 +27,6 @@ namespace ShirtCompany.Models
     {
         public List<CartItem> Items { get; set; } = new List<CartItem>();
 
-        public decimal GrandTotal => Items.Sum(i => i.Total); // Calculate total for the cart
+        public decimal GrandTotal => Items.Sum(item => item.Total);
     }
 }

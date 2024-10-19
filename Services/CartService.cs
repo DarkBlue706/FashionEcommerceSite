@@ -1,5 +1,4 @@
 using System.Text.Json;
-using System.Threading.Tasks;  
 using ShirtCompany.Models;
 
 namespace ShirtCompany.Services
@@ -15,10 +14,14 @@ namespace ShirtCompany.Services
 
         public async Task<Cart> GetCartAsync()
         {
-            // Retrieve the serialized cart from the session asynchronously (though GetString itself is synchronous)
-            var cartJson = _httpContextAccessor.HttpContext.Session.GetString("Cart");
+            var httpContext = _httpContextAccessor.HttpContext;
+            if (httpContext?.Session == null)
+            {
+                throw new InvalidOperationException("Session is not available.");
+            }
 
-            // If the cart is null, create a new one
+            var cartJson = httpContext.Session.GetString("Cart");
+
             if (string.IsNullOrEmpty(cartJson))
             {
                 var cart = new Cart();
@@ -26,21 +29,23 @@ namespace ShirtCompany.Services
                 return cart;
             }
 
-            // Deserialize the JSON back into a Cart object
-            return JsonSerializer.Deserialize<Cart>(cartJson);
+            return JsonSerializer.Deserialize<Cart>(cartJson) ?? new Cart();
         }
 
         public async Task SaveCartAsync(Cart cart)
         {
-            // Serialize the cart object to JSON
+            var httpContext = _httpContextAccessor.HttpContext;
+            if (httpContext?.Session == null)
+            {
+                throw new InvalidOperationException("Session is not available.");
+            }
+
             var cartJson = JsonSerializer.Serialize(cart);
+            httpContext.Session.SetString("Cart", cartJson);
 
-            // Save the serialized cart JSON to the session asynchronously (though SetString is synchronous)
-            _httpContextAccessor.HttpContext.Session.SetString("Cart", cartJson);
-
-            // Using Task.CompletedTask to align with async nature
             await Task.CompletedTask;
         }
+
         public async Task AddToCartAsync(CartItem item)
         {
             var cart = await GetCartAsync();
@@ -49,7 +54,7 @@ namespace ShirtCompany.Services
             if (existingItem == null)
             {
                 Console.WriteLine($"Adding new item: {item.ProductId} with quantity {item.Quantity}");
-                cart.Items.Add(item); 
+                cart.Items.Add(item);
             }
             else
             {
@@ -59,6 +64,7 @@ namespace ShirtCompany.Services
 
             await SaveCartAsync(cart);
         }
+
         public async Task UpdateCartItemAsync(int productId, int quantity)
         {
             var cart = await GetCartAsync();
@@ -66,25 +72,24 @@ namespace ShirtCompany.Services
 
             if (existingItem != null)
             {
-                // If quantity is 0 or less, remove the item from the cart
                 if (quantity <= 0)
                 {
                     cart.Items.Remove(existingItem);
                 }
                 else
                 {
-                    // Update the quantity of the existing item
                     existingItem.Quantity = quantity;
                 }
 
                 await SaveCartAsync(cart);
             }
-        }   
+        }
 
         public async Task RemoveFromCartAsync(int productId)
         {
             var cart = await GetCartAsync();
             var item = cart.Items.FirstOrDefault(i => i.ProductId == productId);
+
             if (item != null)
             {
                 cart.Items.Remove(item);
@@ -96,6 +101,5 @@ namespace ShirtCompany.Services
         {
             await SaveCartAsync(new Cart());
         }
-        
     }
 }

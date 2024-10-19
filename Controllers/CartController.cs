@@ -38,9 +38,9 @@ namespace ShirtCompany.Controllers
             var cartItem = new CartItem
             {
                 ProductId = product.ProductID,
-                Name = product.Name,
+                Name = product.Name ?? "Unknown",
                 Quantity = quantity,
-                Price = (decimal)product.Price
+                Price = product.Price ?? 0m
             };
 
             await _cartService.AddToCartAsync(cartItem);

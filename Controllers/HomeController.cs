@@ -1,153 +1,164 @@
-using System.Diagnostics;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShirtCompany.Models;
+using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 
-namespace ShirtCompany.Controllers;
 
-public class HomeController : Controller
+namespace ShirtCompany.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-    private readonly UserDBContext _userContext; // Injecting UserDBContext
-    private readonly ProductDBContext _productContext; // Injecting ProductDBContext
-
-    // Constructor to inject both UserDBContext and ProductDBContext
-    public HomeController(ILogger<HomeController> logger, UserDBContext userContext, ProductDBContext productContext)
+    [Authorize]
+    public class HomeController : Controller
     {
-        _logger = logger;
-        _userContext = userContext; // Assign injected UserDBContext
-        _productContext = productContext; // Assign injected ProductDBContext
-    }
+        private readonly ILogger<HomeController> _logger;
+        private readonly UserDBContext _userContext;
+        private readonly ProductDBContext _productContext;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
-    // Other action methods can now access both contexts
-
-
-
-    public IActionResult Index() //home/index abstract of all return types
-    {
-        return View();
-    }
-
-    public IActionResult Privacy() //home/privacy
-    {
-        return View();
-    }
-        public IActionResult Search() //home/privacy
-    {
-        return View();
-    }
-
-    public IActionResult Login(UserModel user)
-    {
-        if (ModelState.IsValid)
+        // Inject necessary services
+        public HomeController(
+            ILogger<HomeController> logger, 
+            UserDBContext userContext, 
+            ProductDBContext productContext,
+            UserManager<ApplicationUser> userManager, 
+            SignInManager<ApplicationUser> signInManager)
         {
-            // Search for the user in the database by username or email
-            var existingUser = _userContext.Users
-                .FirstOrDefault(u => u.Username == user.Username && u.Password == user.Password);
-            
-            // Check if the user was found and the password is correct
-            if (existingUser != null)
+            _logger = logger;
+            _userContext = userContext;
+            _productContext = productContext;
+            _userManager = userManager;
+            _signInManager = signInManager;
+        }
+        [AllowAnonymous]
+        public IActionResult Index()
+        {
+            return View();
+        }
+        [AllowAnonymous]
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        // Login method using UserManager and SignInManager
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(string username, string password)
+        {
+            if (ModelState.IsValid)
             {
-                // Set authentication cookie, session, or whatever login mechanism you use
-                // Example: HttpContext.Session.SetString("UserID", existingUser.UserID.ToString());
-                
-                return RedirectToAction("Index");
-            }
-            else
-            {
+                var user = await _userManager.FindByNameAsync(username);
+                if (user != null)
+                {
+                    var result = await _signInManager.PasswordSignInAsync(user, password, isPersistent: false, lockoutOnFailure: false);
+                    if (result.Succeeded)
+                    {
+                        HttpContext.Session.SetString("UserID", user.Id);
+                        return RedirectToAction("Index");
+                    }
+                }
+
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
             }
+
+            return View();
         }
-        
-        return View(user); // Return the view with the error messages if login fails
-    }
 
-
-    public IActionResult Register(UserModel user)
-    {
-    if (ModelState.IsValid)
-    {
-        _userContext.Users.Add(user);
-        _userContext.SaveChanges();
-        return RedirectToAction("SuccessfulRegister");
-    }
-    return View(user);
-    }
-
-    public IActionResult SuccessfulRegister()
-    {
-        return View();
-    }
-
-    public async Task<IActionResult> Shoes()
-    {
-        // Fetch all products where Category is "Shoes"
-        var shoes = await _productContext.Product
-            .Where(p => p.Category == "Shoes")
-            .ToListAsync();
-
-        // Pass the list of shoes to the view
-        return View(shoes);
-    }
-
-    public async Task<IActionResult> Belts()
-    {
-        // Fetch all products where Category is "Shoes"
-        var shoes = await _productContext.Product
-            .Where(p => p.Category == "Belts")
-            .ToListAsync();
-
-        // Pass the list of shoes to the view
-        return View(shoes);
-    }
-
-    public async Task<IActionResult> Glasses()
-    {
-        // Fetch all products where Category is "Shoes"
-        var shoes = await _productContext.Product
-            .Where(p => p.Category == "Glasses")
-            .ToListAsync();
-
-        // Pass the list of shoes to the view
-        return View(shoes);
-    }
-
-    [HttpGet]
-    public IActionResult Search(string query)
-    {
-        ViewData["SearchPhrase"] = query;
-
-        if (string.IsNullOrWhiteSpace(query))
+        // Registration method
+        public IActionResult Register()
         {
-            // Return all products if no query is provided
-            var allProducts = _productContext.Product.ToList();
-            return View(allProducts);
+            return View();
         }
 
-        // Search for products where the category contains the query (case-insensitive)
-        var result = _productContext.Product
-            .Where(p => p.Category.Contains(query))
-            .ToList();
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Register(ApplicationUser user, string password)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _userManager.CreateAsync(user, password);
+                if (result.Succeeded)
+                {
+                    await _signInManager.SignInAsync(user, isPersistent: false);
+                    return RedirectToAction("Index");
+                }
 
-        return View(result);
-    }
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+            }
+
+            return View(user);
+        }
+
+        public IActionResult SuccessfulRegister()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> Shoes()
+        {
+            var shoes = await _productContext.Product
+                .Where(p => p.Category == "Shoes")
+                .ToListAsync();
+            return View(shoes);
+        }
+
+        public async Task<IActionResult> Belts()
+        {
+            var belts = await _productContext.Product
+                .Where(p => p.Category == "Belts")
+                .ToListAsync();
+            return View(belts);
+        }
+
+        public async Task<IActionResult> Glasses()
+        {
+            var glasses = await _productContext.Product
+                .Where(p => p.Category == "Glasses")
+                .ToListAsync();
+            return View(glasses);
+        }
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult Search(string query)
+        {
+            ViewData["SearchPhrase"] = query;
+
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                var allProducts = _productContext.Product?.ToList() ?? new List<Product>();
+                return View(allProducts);
+            }
+
+            // Use EF.Functions.Like for case-insensitive SQL filtering
+            var result = _productContext.Product?
+                .Where(p => EF.Functions.Like(p.Category ?? "", $"%{query}%"))
+                .ToList();
+
+            return View(result);
+        }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult ShowSearchResults(string SearchPhrase)
         {
-                // Query the database for products with a matching category
-            var results = _productContext.Product
-                .Where(p => p.Category.Contains(SearchPhrase))
-                .ToList();
+            var results = _productContext.Product?
+                .Where(p => (p.Category ?? "").Contains(SearchPhrase, StringComparison.OrdinalIgnoreCase))
+                .ToList() ?? new List<Product>();
 
-                // Return the results to a view
             return View(results);
         }
-   
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            var requestId = Activity.Current?.Id ?? HttpContext?.TraceIdentifier ?? "Unknown";
+            return View(new ErrorViewModel { RequestId = requestId });
+        }
     }
 }
